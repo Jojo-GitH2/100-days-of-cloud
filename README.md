@@ -14,3 +14,10 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Create SSH key pairs for secure access to EC2 instances via the AWS Console
 - **Lab:** [Go to Day-001](./Day-001)
 - **Thoughts:** Creating a key pair is straightforward via the AWS Console. It’s essential for secure access to EC2 instances.
+  
+---
+### 🗓️ Day 2: Create Security Groups
+**Date:** Jan 2, 2026
+- **Activity:** Create virtual firewalls (Security Groups) to manage inbound and outbound traffic for EC2 instances using both AWS Console and AWS CLI
+- **Lab:** [Go to Day-002](./Day-002)
+- **Thoughts:** Security Groups are stateful, meaning if you allow a request in, the response is automatically allowed out. This makes them easier to manage than stateless ACLs for instance-level security.
