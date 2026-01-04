@@ -29,3 +29,10 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Partition a VPC into subnets and understand CIDR notation using both AWS Console and AWS CLI
 - **Lab:** [Go to Day-003](./Day-003)
 - **Thoughts:** The hardest part isn't creating the subnet, it's the CIDR math. Also learned a valuable lesson about quoting JSON in CLI commands to avoid parsing errors.
+
+---
+### 🗓️ Day 4: Allocate Elastic IP
+**Date:** Jan 4, 2026
+- **Activity:** Allocate an Elastic IP address using both AWS Console and AWS CLI
+- **Lab:** [Go to Day-004](./Day-004)
+- **Thoughts:** Allocating an Elastic IP is a simple process, but it's important to understand the implications of using one.
