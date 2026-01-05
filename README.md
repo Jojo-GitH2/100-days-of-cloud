@@ -36,3 +36,10 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Allocate an Elastic IP address using both AWS Console and AWS CLI
 - **Lab:** [Go to Day-004](./Day-004)
 - **Thoughts:** Allocating an Elastic IP is a simple process, but it's important to understand the implications of using one.
+
+---
+### 🗓️ Day 5: Create GP3 Volume
+**Date:** Jan 5, 2026
+- **Activity:** Provisioned a standalone General Purpose SSD (gp3) volume using Console and CLI.
+- **Lab:** [Go to Day-005](./Day-005)
+- **Thoughts:** EBS Volumes are very important in the AWS cloud architecture. They can be used as primary storage for data that requires frequent updates, such as the system drive for an instance or storage for a database application.
