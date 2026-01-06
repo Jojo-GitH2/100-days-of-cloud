@@ -43,3 +43,10 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Provisioned a standalone General Purpose SSD (gp3) volume using Console and CLI.
 - **Lab:** [Go to Day-005](./Day-005)
 - **Thoughts:** EBS Volumes are very important in the AWS cloud architecture. They can be used as primary storage for data that requires frequent updates, such as the system drive for an instance or storage for a database application.
+
+---
+### 🗓️ Day 6: Launch EC2 Instance
+**Date:** Jan 6,2026
+- **Activity:** Launched a t2.micro instance, integration the key pair, Security Group, and Subnet.
+- **Lab:** [Go to Day-006](./Day-006)
+- **Thoughts:** It's satisfying to see the previous days' work connect. The instance is useless without the network (Subnet) and access (Key Pair & Security Group).
