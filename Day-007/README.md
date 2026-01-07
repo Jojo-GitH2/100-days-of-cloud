@@ -5,7 +5,7 @@
 Today's task involved **Right-Sizing** our infrastructure. In the real-world scenario (simulating the "Nautilus DevOps team"), we identified that our current EC2 instance running `t2.micro` was underutilized.
 To optimize costs and resource utilization, the task was to scale it down to `t2.nano`.
 
-![alt text](image.png)
+![alt text](./assets/image.png)
 
 **Objective:**
 
