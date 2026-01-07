@@ -50,3 +50,10 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Launched a t2.micro instance, integration the key pair, Security Group, and Subnet.
 - **Lab:** [Go to Day-006](./Day-006)
 - **Thoughts:** It's satisfying to see the previous days' work connect. The instance is useless without the network (Subnet) and access (Key Pair & Security Group).
+
+---
+### 🗓️ Day 7: Change EC2 Instance Type
+**Date:** Jan 7, 2026
+- **Activity:** Performed "Right-Sizing" via the AWS Console by scaling an instance down from t2.micro to t2.nano to optimize costs.
+- **Lab:** [Go to Day-007](./Day-007)
+- **Thoughts:** Vertical scaling requires stopping the machine. It’s a simple process in the Console, but critical to remember that you can't change the engine while the car is moving.
