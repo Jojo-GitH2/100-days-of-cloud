@@ -57,3 +57,10 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Performed "Right-Sizing" via the AWS Console by scaling an instance down from t2.micro to t2.nano to optimize costs.
 - **Lab:** [Go to Day-007](./Day-007)
 - **Thoughts:** Vertical scaling requires stopping the machine. It’s a simple process in the Console, but critical to remember that you can't change the engine while the car is moving.
+
+---
+### 🗓️ Day 8: Enable Stop Protection
+**Date:** Jan 8, 2026
+- **Activity:** Enabled "Stop Protection" on the nautilus-ec2 instance to prevent accidental shutdowns via Console or API.
+- **Lab:** [Go to Day-008](./Day-008)
+- **Thoughts:** A small checkbox that saves big headaches. It’s distinct from Termination Protection, and highly useful for avoiding "fat finger" mistakes in production.
