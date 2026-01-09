@@ -64,3 +64,10 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Enabled "Stop Protection" on the nautilus-ec2 instance to prevent accidental shutdowns via Console or API.
 - **Lab:** [Go to Day-008](./Day-008)
 - **Thoughts:** A small checkbox that saves big headaches. It’s distinct from Termination Protection, and highly useful for avoiding "fat finger" mistakes in production.
+
+---
+### 🗓️ Day 9: Enable Termination Protection
+**Date:** Jan 9, 2026
+- **Activity:** Enabled "Termination Protection" to prevent the permanent deletion of critical EC2 instances.
+- **Lab:** [Go to Day-009](./Day-009)
+- **Thoughts:** The difference between "Stop" and "Terminate" is the difference between turning off the lights and burning down the house. This setting is a must for production databases and critical servers.
