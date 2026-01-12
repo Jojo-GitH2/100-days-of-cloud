@@ -112,9 +112,21 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Thoughts:** This closes the loop from Day 4. Not only does this secure a permanent address for the server, but attaching it to a running instance also stops the hourly "idle IP" charge from AWS.
 
 ---
+
 ### Day 11: Attach Elastic Network Interface (ENI)
+
 **Date:** Jan 11, 2026
 
 - **Activity:** Attached a secondary Elastic Network Interface (ENI) to the `devops-ec2` instance.
 - **Lab:** [Go to Day-011](./Day-011)
 - **Thoughts:** An ENI is just a virtual network card. Adding a second one allows for interesting architectures, like separating management traffic from user traffic or creating low-budget high-availability setups.
+
+---
+
+### 🗓️ Day 12: Attach EBS Volume
+
+**Date:** Jan 12, 2026
+
+- **Activity:** Attached a secondary EBS volume (`devops-volume`) to the `devops-ec2` instance as `/dev/sdb`.
+- **Lab:** [Go to Day-012](./Day-012)
+- **Thoughts:** This is "Hot-Plugging" in the cloud. The critical constraint to remember is the Availability Zone—you can't attach a hard drive if the server is in a different building!
