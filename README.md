@@ -130,3 +130,10 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Attached a secondary EBS volume (`devops-volume`) to the `devops-ec2` instance as `/dev/sdb`.
 - **Lab:** [Go to Day-012](./Day-012)
 - **Thoughts:** This is "Hot-Plugging" in the cloud. The critical constraint to remember is the Availability Zone—you can't attach a hard drive if the server is in a different building!
+
+---
+### 🗓️ Day 13: Create AMI (Golden Image)
+**Date:** Jan 13, 2026
+- **Activity:** Created a custom Amazon Machine Image (AMI) named `nautilus-ec2-ami` from a running instance to enable cloning and backup.
+- **Lab:** [Go to Day-013](./Day-013)
+- **Thoughts:** This is essentially "Save Game" for servers. It captures the OS, the data, and the config, allowing you to spawn identical copies instantly.
