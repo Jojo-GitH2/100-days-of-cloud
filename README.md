@@ -137,3 +137,10 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Created a custom Amazon Machine Image (AMI) named `nautilus-ec2-ami` from a running instance to enable cloning and backup.
 - **Lab:** [Go to Day-013](./Day-013)
 - **Thoughts:** This is essentially "Save Game" for servers. It captures the OS, the data, and the config, allowing you to spawn identical copies instantly.
+
+---
+### 🗓️ Day 14: Terminate EC2 Instance
+**Date:** Jan 14, 2026
+- **Activity:** Permanently terminated the obsolete `datacenter-ec2` instance to optimize costs and remove unused resources.
+- **Lab:** [Go to Day-014](./Day-014)
+- **Thoughts:** Deletion is the final step of the lifecycle. It’s crucial to distinguish between "Stopping" (pausing billing for compute) and "Terminating" (destroying the resource entirely).
