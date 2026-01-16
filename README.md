@@ -160,3 +160,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Created a point-in-time backup (Snapshot) of the `nautilus-vol` volume for disaster recovery purposes.
 - **Lab:** [Go to Day-015](./Day-015)
 - **Thoughts:** Snapshots are the backbone of data protection in AWS. The fact that they are incremental makes them a very cost-effective way to keep a history of your changes.
+
+---
+
+### 🗓️ Day 16: Create IAM User
+
+**Date:** Jan 16, 2026
+
+- **Activity:** Created an IAM user (`iamuser_javed`) to establish individual identity and avoid using the root account.
+- **Lab:** [Go to Day-016](./Day-016)
+- **Thoughts:** Identity is the new perimeter. Creating users is the first step in the "Principle of Least Privilege." We grant access only to specific people, not generic shared accounts.
