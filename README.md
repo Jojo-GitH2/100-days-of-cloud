@@ -170,3 +170,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Created an IAM user (`iamuser_javed`) to establish individual identity and avoid using the root account.
 - **Lab:** [Go to Day-016](./Day-016)
 - **Thoughts:** Identity is the new perimeter. Creating users is the first step in the "Principle of Least Privilege." We grant access only to specific people, not generic shared accounts.
+
+---
+
+### 🗓️ Day 17: Create IAM Group
+
+**Date:** Jan 17, 2026
+
+- **Activity:** Created an IAM group (`iamgroup_james`) to facilitate scalable permission management.
+- **Lab:** [Go to Day-017](./Day-017)
+- **Thoughts:** This is about efficiency. Managing permissions at the Group level is the only way to stay sane in a large organization. It ensures that everyone with the same role has the exact same access.
