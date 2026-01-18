@@ -180,3 +180,11 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Created an IAM group (`iamgroup_james`) to facilitate scalable permission management.
 - **Lab:** [Go to Day-017](./Day-017)
 - **Thoughts:** This is about efficiency. Managing permissions at the Group level is the only way to stay sane in a large organization. It ensures that everyone with the same role has the exact same access.
+
+### 🗓️ Day 18: Create Read-Only Policy
+
+**Date:** Jan 18, 2026
+
+- **Activity:** Created a custom IAM policy (`iampolicy_mariyam`) that grants read-only access to the EC2 console using the `ec2:Describe*` action.
+- **Lab:** [Go to Day-018](./Day-018)
+- **Thoughts:** This is the core of custom security. Instead of handing out full Admin rights, we wrote a specific rule that says "You can look, but you can't touch."
