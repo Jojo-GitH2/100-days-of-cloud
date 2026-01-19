@@ -188,3 +188,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Created a custom IAM policy (`iampolicy_mariyam`) that grants read-only access to the EC2 console using the `ec2:Describe*` action.
 - **Lab:** [Go to Day-018](./Day-018)
 - **Thoughts:** This is the core of custom security. Instead of handing out full Admin rights, we wrote a specific rule that says "You can look, but you can't touch."
+
+---
+
+### 🗓️ Day 19: Attach IAM Policy
+
+**Date:** Jan 19, 2026
+
+- **Activity:** Connected an existing IAM Policy (`iampolicy_ravi`) to an IAM User (`iamuser_ravi`) to grant active permissions.
+- **Lab:** [Go to Day-019](./Day-019)
+- **Thoughts:** A user without a policy is powerless. A policy without a user is useless. Today was about making the connection between "Who" (The User) and "What" (The Rules).
