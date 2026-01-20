@@ -198,3 +198,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Connected an existing IAM Policy (`iampolicy_ravi`) to an IAM User (`iamuser_ravi`) to grant active permissions.
 - **Lab:** [Go to Day-019](./Day-019)
 - **Thoughts:** A user without a policy is powerless. A policy without a user is useless. Today was about making the connection between "Who" (The User) and "What" (The Rules).
+
+---
+
+### 🗓️ Day 20: Create IAM Role
+
+**Date:** Jan 20, 2026
+
+- **Activity:** Created an IAM Role (`iamrole_yousuf`) for EC2 and attached a policy, enabling secure, keyless access.
+- **Lab:** [Go to Day-020](./Day-020)
+- **Thoughts:** This is the most secure way to handle credentials on servers. Hardcoding Access Keys is a sin; using Roles is salvation.
