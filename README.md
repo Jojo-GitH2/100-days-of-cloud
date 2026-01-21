@@ -208,3 +208,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Created an IAM Role (`iamrole_yousuf`) for EC2 and attached a policy, enabling secure, keyless access.
 - **Lab:** [Go to Day-020](./Day-020)
 - **Thoughts:** This is the most secure way to handle credentials on servers. Hardcoding Access Keys is a sin; using Roles is salvation.
+
+---
+
+### 🗓️ Day 21: EC2 with Elastic IP
+
+**Date:** Jan 21, 2026
+
+- **Activity:** Provisioned a new `t2.micro` instance (`devops-ec2`) and immediately assigned a static Elastic IP (`devops-eip`) to ensure consistent access.
+- **Lab:** [Go to Day-021](./Day-021)
+- **Thoughts:** This combines the skills from Day 6 (Launch) and Day 10 (EIP). It’s a standard pattern for single-instance application deployments where DNS stability is required.
