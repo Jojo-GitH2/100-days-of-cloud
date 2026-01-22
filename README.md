@@ -218,3 +218,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Provisioned a new `t2.micro` instance (`devops-ec2`) and immediately assigned a static Elastic IP (`devops-eip`) to ensure consistent access.
 - **Lab:** [Go to Day-021](./Day-021)
 - **Thoughts:** This combines the skills from Day 6 (Launch) and Day 10 (EIP). It’s a standard pattern for single-instance application deployments where DNS stability is required.
+
+---
+
+### 🗓️ Day 22: Secure SSH Configuration
+
+**Date:** Jan 22, 2026
+
+- **Activity:** Configured passwordless SSH access by injecting the `aws-client` public key into the `nautilus-ec2` instance using an **EC2 User Data** script.
+- **Lab:** [Go to Day-022](./Day-022)
+- **Thoughts:** Using User Data to inject keys is a pro move. It completely removes the need for manual setup or temporary key pairs. The instance is ready to accept connections the moment it boots.
