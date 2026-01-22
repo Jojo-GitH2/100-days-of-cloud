@@ -6,13 +6,14 @@ Today's task for the Nautilus DevOps team was a full provisioning workflow. The 
 
 To achieve this, I launched a new Linux EC2 instance (`devops-ec2`) and immediately associated it with a static Elastic IP (`devops-eip`).
 
-
+![alt text](./assets/image.png)
 
 ## Steps & Configuration
 
 ### Method: Using AWS Management Console
 
 #### Part 1: Launch the Instance
+
 1. **Log in:** Access the [AWS Management Console](https://aws.amazon.com/console/) and navigate to the **EC2 Dashboard**.
 2. **Launch Instance:**
    - Click **Launch instance**.
@@ -22,8 +23,15 @@ To achieve this, I launched a new Linux EC2 instance (`devops-ec2`) and immediat
    - **Key Pair:** Select an existing key pair (e.g., `devops-kp`).
    - **Network:** Default VPC and Subnet.
    - Click **Launch instance**.
+     ![alt text](./assets/image-1.png)
+     ![alt text](./assets/image-2.png)
+     ![alt text](./assets/image-3.png)
+     ![alt text](./assets/image-4.png)
+     ![alt text](./assets/image-5.png)
+     ![alt text](./assets/image-6.png)
 
 #### Part 2: Allocate Elastic IP
+
 1. **Navigate to Elastic IPs:**
    - In the left sidebar under **Network & Security**, click **Elastic IPs**.
    - Click **Allocate Elastic IP address**.
@@ -33,8 +41,13 @@ To achieve this, I launched a new Linux EC2 instance (`devops-ec2`) and immediat
      - Key: `Name`
      - Value: `devops-eip` (Strict requirement).
    - Click **Allocate**.
+     ![alt text](./assets/image-7.png)
+     ![alt text](./assets/image-8.png)
+     ![alt text](./assets/image-9.png)
+     ![alt text](./assets/image-11.png)
 
 #### Part 3: Associate Elastic IP
+
 1. **Associate:**
    - Select the newly created Elastic IP (`devops-eip`).
    - Click **Actions** > **Associate Elastic IP address**.
@@ -42,44 +55,20 @@ To achieve this, I launched a new Linux EC2 instance (`devops-ec2`) and immediat
    - **Resource type:** Instance.
    - **Instance:** Select `devops-ec2` from the list.
    - Click **Associate**.
+     ![alt text](./assets/image-12.png)
+     ![alt text](./assets/image-13.png)
+     ![alt text](./assets/image-14.png)
 
 #### Verification
+
 1. Go to the **Instances** dashboard.
 2. Select `devops-ec2`.
 3. Check the **Public IPv4 address** field. It should match the Elastic IP address, and the text should be blue (indicating it is a link to the EIP).
 
 ## 🧠 Theory: Dynamic vs. Static IPs
+
 By default, EC2 public IPs are **Dynamic**. If the Dev team stops the instance to resize it or perform maintenance, the IP changes when it boots back up. This breaks DNS records and configuration files.
 
 By attaching an **Elastic IP**, we make the endpoint **Static**, providing a reliable contract for the Development Team.
 
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-![alt text](image-2.png)
-
-![alt text](image-3.png)
-
-![alt text](image-4.png)
-
-![alt text](image-5.png)
-
-![alt text](image-6.png)
-
-![alt text](image-7.png)
-
-![alt text](image-8.png)
-
-![alt text](image-9.png)
-
-
-![alt text](image-11.png)
-
-![alt text](image-12.png)
-
-![alt text](image-13.png)
-
-![alt text](image-14.png)
-
-![alt text](image-15.png)
+![alt text](./assets/image-15.png)
