@@ -228,3 +228,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Configured passwordless SSH access by injecting the `aws-client` public key into the `nautilus-ec2` instance using an **EC2 User Data** script.
 - **Lab:** [Go to Day-022](./Day-022)
 - **Thoughts:** Using User Data to inject keys is a pro move. It completely removes the need for manual setup or temporary key pairs. The instance is ready to accept connections the moment it boots.
+
+---
+
+### 🗓️ Day 23: S3 Data Migration
+
+**Date:** Jan 23, 2026
+
+- **Activity:** Migrated data between two S3 buckets using the AWS CLI `sync` command for efficiency and consistency.
+- **Lab:** [Go to Day-023](./Day-023)
+- **Thoughts:** The `aws s3 sync` command is one of the most powerful tools in the CLI. It's idempotent, meaning you can run it 100 times safely. It's the standard for simple bucket-to-bucket migrations.
