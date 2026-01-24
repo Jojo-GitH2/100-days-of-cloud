@@ -238,3 +238,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Migrated data between two S3 buckets using the AWS CLI `sync` command for efficiency and consistency.
 - **Lab:** [Go to Day-023](./Day-023)
 - **Thoughts:** The `aws s3 sync` command is one of the most powerful tools in the CLI. It's idempotent, meaning you can run it 100 times safely. It's the standard for simple bucket-to-bucket migrations.
+
+---
+
+### 🗓️ Day 24: Application Load Balancer
+
+**Date:** Jan 24, 2026
+
+- **Activity:** Deployed an Application Load Balancer (`xfusion-alb`) to route traffic to an EC2 instance, implementing Security Group Chaining for protection.
+- **Lab:** [Go to Day-024](./Day-024)
+- **Thoughts:** The coolest part was chaining the Security Groups. Making the EC2 instance only listen to the ALB (and ignoring the rest of the internet) feels like a massive security win.
