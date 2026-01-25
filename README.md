@@ -248,3 +248,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Deployed an Application Load Balancer (`xfusion-alb`) to route traffic to an EC2 instance, implementing Security Group Chaining for protection.
 - **Lab:** [Go to Day-024](./Day-024)
 - **Thoughts:** The coolest part was chaining the Security Groups. Making the EC2 instance only listen to the ALB (and ignoring the rest of the internet) feels like a massive security win.
+
+---
+
+### 🗓️ Day 25: CloudWatch Alarm
+
+**Date:** Jan 25, 2026
+
+- **Activity:** Launched `devops-ec2` and configured a CloudWatch Alarm (`devops-alarm`) to trigger an SNS notification if CPU usage exceeds 90%.
+- **Lab:** [Go to Day-025](./Day-025)
+- **Thoughts:** Monitoring is what separates hobbyists from professionals. You can't fix what you can't see. Setting up this alarm ensures the system screams for help before it crashes.
