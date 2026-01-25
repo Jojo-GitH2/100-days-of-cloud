@@ -86,4 +86,8 @@ Proactively detect performance issues. If the server is working too hard (CPU > 
 - **Dimension:** A filter to specify _which_ resource the metric belongs to (e.g., "InstanceId=i-123...").
 - **Period:** The window of time over which data is aggregated (e.g., "Average CPU over 5 minutes").
 
+**Why 5 minutes?**
+
+Standard EC2 monitoring pushes data every 5 minutes. If you want faster alarms (e.g., 1 minute), you must enable "Detailed Monitoring," which costs extra.
+
 ![alt text](./assets/image-19.png)
