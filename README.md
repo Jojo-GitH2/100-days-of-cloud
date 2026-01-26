@@ -258,3 +258,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Launched `devops-ec2` and configured a CloudWatch Alarm (`devops-alarm`) to trigger an SNS notification if CPU usage exceeds 90%.
 - **Lab:** [Go to Day-025](./Day-025)
 - **Thoughts:** Monitoring is what separates hobbyists from professionals. You can't fix what you can't see. Setting up this alarm ensures the system screams for help before it crashes.
+
+---
+
+### 🗓️ Day 26: Nginx Web Server (User Data)
+
+**Date:** Jan 26, 2026
+
+- **Activity:** Provisioned an Ubuntu EC2 instance and used a User Data script to automatically install and start Nginx.
+- **Lab:** [Go to Day-026](./Day-026)
+- **Thoughts:** Bootstrapping removes the need for SSH. If you find yourself logging into a server to run `apt install`, you are doing it manually. User Data automates the "Day 1" setup.
