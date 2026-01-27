@@ -268,3 +268,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Provisioned an Ubuntu EC2 instance and used a User Data script to automatically install and start Nginx.
 - **Lab:** [Go to Day-026](./Day-026)
 - **Thoughts:** Bootstrapping removes the need for SSH. If you find yourself logging into a server to run `apt install`, you are doing it manually. User Data automates the "Day 1" setup.
+
+---
+
+### 🗓️ Day 27: Custom Public VPC
+
+**Date:** Jan 27, 2026
+
+- **Activity:** Built a custom VPC (`xfusion-pub-vpc`) with a public subnet, Internet Gateway, and Route Table, then launched an accessible EC2 instance.
+- **Lab:** [Go to Day-027](./Day-027)
+- **Thoughts:** This is the "Hello World" of Cloud Networking. Understanding the relationship between the IGW, Route Table, and Subnet is the most critical concept in AWS networking.
