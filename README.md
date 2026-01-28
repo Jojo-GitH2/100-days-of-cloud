@@ -278,3 +278,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Built a custom VPC (`xfusion-pub-vpc`) with a public subnet, Internet Gateway, and Route Table, then launched an accessible EC2 instance.
 - **Lab:** [Go to Day-027](./Day-027)
 - **Thoughts:** This is the "Hello World" of Cloud Networking. Understanding the relationship between the IGW, Route Table, and Subnet is the most critical concept in AWS networking.
+
+---
+
+### 🗓️ Day 28: Amazon ECR
+
+**Date:** Jan 28, 2026
+
+- **Activity:** Created a private ECR repository (`xfusion-ecr`), built a Docker image from a local Dockerfile, and pushed it to the registry.
+- **Lab:** [Go to Day-028](./Day-028)
+- **Thoughts:** The hardest part of ECR is usually the authentication command. Once you understand that you are piping a token into `docker login`, the rest is standard Docker workflow.
