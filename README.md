@@ -288,3 +288,23 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Created a private ECR repository (`xfusion-ecr`), built a Docker image from a local Dockerfile, and pushed it to the registry.
 - **Lab:** [Go to Day-028](./Day-028)
 - **Thoughts:** The hardest part of ECR is usually the authentication command. Once you understand that you are piping a token into `docker login`, the rest is standard Docker workflow.
+
+---
+
+### 🗓️ Day 29: VPC Peering
+
+**Date:** Jan 29, 2026
+
+- **Activity:** Established a peering connection between a Public and Private VPC (`devops-vpc-peering`), configured route tables, and used EC2 Instance Connect to manually authorize SSH access.
+- **Lab:** [Go to Day-029](./Day-029)
+- **Thoughts:** Peering is the "Secret Tunnel" of AWS. The Instance Connect workaround was a lifesaver for accessing an existing instance without a key pair.
+
+---
+
+### 🗓️ Day 30: NAT Instance
+
+**Date:** Jan 30, 2026
+
+- **Activity:** Configured a "Poor Man's NAT Gateway" using an EC2 instance. Set up `igw-devops`, public routing, and `iptables` rules to route private traffic to the internet.
+- **Lab:** [Go to Day-030](./Day-030)
+- **Thoughts:** The `iptables` command requires knowing your interface name! I used `ens5` in my script. Also, never forget that the Public Subnet needs an actual Internet Gateway (`igw-devops`) to function.
