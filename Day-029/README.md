@@ -71,22 +71,35 @@ Since the instances already existed, I couldn't use User Data to inject my SSH k
     ![alt text](./assets/image-19.png)
     ![alt text](./assets/image-20.png)
     ![alt text](./assets/image-21.png)
+    ![alt text](./assets/image-22.png)
 
         - Once logged in via the browser, I added the key manually:
           ```bash
-          echo "ssh-rsa AAAAB3..." >> ~/.ssh/authorized_keys
+          nano ~/.ssh/authorized_keys
           ```
+
+    ![alt text](./assets/image-23.png)
+
         - _Now the `aws-client` (KodeKloud terminal) is authorized to SSH in._
 
 2.  **Test Connectivity:**
     - SSH from `aws-client` to Public EC2:
+
       ```bash
       ssh ec2-user@<PUBLIC-IP-OF-DEVOPS-PUBLIC-EC2>
       ```
+
+      ![alt text](./assets/image-25.png)
+
     - From inside the Public EC2, ping the Private EC2's internal IP:
+
       ```bash
       ping <PRIVATE-IP-OF-DEVOPS-PRIVATE-EC2>
       ```
+
+      ![alt text](./assets/image-26.png)
+      ![alt text](./assets/image-27.png)
+
     - **Success:** You should see successful packet replies.
 
 ## 🧠 Theory: Peering is Non-Transitive
@@ -94,16 +107,5 @@ Since the instances already existed, I couldn't use User Data to inject my SSH k
 VPC Peering has a "Star" topology, not a "Mesh."
 If VPC A peers with VPC B, and VPC B peers with VPC C... **VPC A cannot talk to VPC C.**
 You would need a direct peering connection between A and C.
-
-![alt text](./assets/image-22.png)
-
-![alt text](./assets/image-24.png)
-![alt text](./assets/image-23.png)
-
-![alt text](./assets/image-25.png)
-
-![alt text](./assets/image-26.png)
-
-![alt text](./assets/image-27.png)
 
 ![alt text](./assets/image-28.png)

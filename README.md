@@ -308,3 +308,11 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Configured a "Poor Man's NAT Gateway" using an EC2 instance. Set up `igw-devops`, public routing, and `iptables` rules to route private traffic to the internet.
 - **Lab:** [Go to Day-030](./Day-030)
 - **Thoughts:** The `iptables` command requires knowing your interface name! I used `ens5` in my script. Also, never forget that the Public Subnet needs an actual Internet Gateway (`igw-devops`) to function.
+
+---
+
+**Date:** Jan 31, 2026
+
+- **Activity:** Provisioned a Private MySQL RDS instance (`xfusion-rds`) with Storage Autoscaling enabled to prevent capacity issues during development.
+- **Lab:** [Go to Day-031](./Day-031)
+- **Thoughts:** The `db.t3.micro` is a workhorse for dev environments. Enabling autoscaling (even with a small cap like 50GB) is a best practice that saves you from waking up to a "Disk Full" error.
