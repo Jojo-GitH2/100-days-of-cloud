@@ -316,3 +316,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Provisioned a Private MySQL RDS instance (`xfusion-rds`) with Storage Autoscaling enabled to prevent capacity issues during development.
 - **Lab:** [Go to Day-031](./Day-031)
 - **Thoughts:** The `db.t3.micro` is a workhorse for dev environments. Enabling autoscaling (even with a small cap like 50GB) is a best practice that saves you from waking up to a "Disk Full" error.
+
+---
+
+### 🗓️ Day 32: RDS Backup & Restore
+
+**Date:** Feb 01, 2026
+
+- **Activity:** Took a manual snapshot of an RDS instance and restored it to a new `db.t3.micro` instance to verify data integrity and backup procedures.
+- **Lab:** [Go to Day-032](./Day-032)
+- **Thoughts:** The ability to resize an instance _during_ the restore process is a powerful feature. It allows you to take a snapshot of a massive Production DB and restore it to a tiny Dev instance for debugging.
