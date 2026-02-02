@@ -3,11 +3,7 @@
 **Start Date:** January 1, 2026  
 **End Date:** April 10, 2026  
 **Status:** 🟢 Active  
-**Author:** Jonah Uka | Cloud Administrator & .NET Developer
-
-## 🚀 The Goal
-
-I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the next 100 days, I will deep-dive into Multi-Cloud architectures (AWS & Azure) following the [KodeKloud](https://kodekloud.com) Cloud Engineer Path.
+**Author:** Jonah Uka | Cloud DevOps Engineer & .NET Developer
 
 ## 📅 Daily Log
 
@@ -326,3 +322,13 @@ I am documenting my journey from Cloud Administrator to Cloud Engineer. Over the
 - **Activity:** Took a manual snapshot of an RDS instance and restored it to a new `db.t3.micro` instance to verify data integrity and backup procedures.
 - **Lab:** [Go to Day-032](./Day-032)
 - **Thoughts:** The ability to resize an instance _during_ the restore process is a powerful feature. It allows you to take a snapshot of a massive Production DB and restore it to a tiny Dev instance for debugging.
+
+---
+
+### 🗓️ Day 33: AWS Lambda
+
+**Date:** Feb 02, 2026
+
+- **Activity:** Created a Python Lambda function (`devops-lambda`) with a custom IAM role to return a JSON response.
+- **Lab:** [Go to Day-033](./Day-033)
+- **Thoughts:** This is the entry point to modern cloud architecture. No OS patching, no SSH, just code and execution. The speed from "Idea" to "Running" is unmatched.
