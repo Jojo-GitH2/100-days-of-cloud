@@ -332,3 +332,13 @@
 - **Activity:** Created a Python Lambda function (`devops-lambda`) with a custom IAM role to return a JSON response.
 - **Lab:** [Go to Day-033](./Day-033)
 - **Thoughts:** This is the entry point to modern cloud architecture. No OS patching, no SSH, just code and execution. The speed from "Idea" to "Running" is unmatched.
+
+---
+
+### 🗓️ Day 34: AWS Lambda via CLI
+
+**Date:** Feb 03, 2026
+
+- **Activity:** Packaged a Python script into a zip file and deployed it as a Lambda function (`datacenter-lambda-cli`) using the AWS CLI.
+- **Lab:** [Go to Day-034](./Day-034)
+- **Thoughts:** The AWS CLI forces you to understand the components (Role ARNs, Handlers, Zip packages) better than the Console wizard does. The `fileb://` prefix is a classic CLI "gotcha", but once understood, it makes binary uploads seamless.
