@@ -109,7 +109,7 @@
 
 ---
 
-### Day 11: Attach Elastic Network Interface (ENI)
+### 🗓️ Day 11: Attach Elastic Network Interface (ENI)
 
 **Date:** Jan 11, 2026
 
@@ -342,3 +342,13 @@
 - **Activity:** Packaged a Python script into a zip file and deployed it as a Lambda function (`datacenter-lambda-cli`) using the AWS CLI.
 - **Lab:** [Go to Day-034](./Day-034)
 - **Thoughts:** The AWS CLI forces you to understand the components (Role ARNs, Handlers, Zip packages) better than the Console wizard does. The `fileb://` prefix is a classic CLI "gotcha", but once understood, it makes binary uploads seamless.
+
+---
+
+### 🗓️ Day 35: LAMP Stack Deployment
+
+**Date:** Feb 04, 2026
+
+- **Activity:** Deployed a PHP application on EC2 connected to a Private MySQL RDS. Troubleshot SSH permissions, reset DB credentials, and fixed Apache directory prioritization.
+- **Lab:** [Go to Day-035](./Day-035)
+- **Thoughts:** A perfect deployment is rare. I had to reset the RDS password, add a missing SSH rule to the Security Group, and modify `dir.conf` to get the page loading correctly.
