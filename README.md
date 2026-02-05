@@ -352,3 +352,11 @@
 - **Activity:** Deployed a PHP application on EC2 connected to a Private MySQL RDS. Troubleshot SSH permissions, reset DB credentials, and fixed Apache directory prioritization.
 - **Lab:** [Go to Day-035](./Day-035)
 - **Thoughts:** A perfect deployment is rare. I had to reset the RDS password, add a missing SSH rule to the Security Group, and modify `dir.conf` to get the page loading correctly.
+
+### 🗓️ Day 36: Application Load Balancer
+
+**Date:** Feb 05, 2026
+
+- **Activity:** Deployed an Nginx web server behind an Application Load Balancer (`xfusion-alb`). Configured Security Group referencing so the EC2 only accepts traffic from the ALB.
+- **Lab:** [Go to Day-036](./Day-036)
+- **Thoughts:** This lab reinforces the "Security Group Chaining" concept. The EC2 instance is effectively hidden from the public internet, accessible only through the "front door" (the ALB).
