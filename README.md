@@ -360,3 +360,13 @@
 - **Activity:** Deployed an Nginx web server behind an Application Load Balancer (`xfusion-alb`). Configured Security Group referencing so the EC2 only accepts traffic from the ALB.
 - **Lab:** [Go to Day-036](./Day-036)
 - **Thoughts:** This lab reinforces the "Security Group Chaining" concept. The EC2 instance is effectively hidden from the public internet, accessible only through the "front door" (the ALB).
+
+---
+
+### 🗓️ Day 37: IAM Roles for EC2
+
+**Date:** Feb 06, 2026
+
+- **Activity:** Created a private S3 bucket and an IAM role (`nautilus-role`) to allow an EC2 instance to securely interact with S3 without using static credentials.
+- **Lab:** [Go to Day-037](./Day-037)
+- **Thoughts:** This is Cloud Security 101. Never use IAM User keys on an EC2 instance; always use Roles. It's cleaner, safer, and follows AWS best practices.
