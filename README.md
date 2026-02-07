@@ -370,3 +370,13 @@
 - **Activity:** Created a private S3 bucket and an IAM role (`nautilus-role`) to allow an EC2 instance to securely interact with S3 without using static credentials.
 - **Lab:** [Go to Day-037](./Day-037)
 - **Thoughts:** This is Cloud Security 101. Never use IAM User keys on an EC2 instance; always use Roles. It's cleaner, safer, and follows AWS best practices.
+
+---
+
+### 🗓️ Day 38: Amazon ECS & Fargate
+
+**Date:** Feb 07, 2026
+
+- **Activity:** Deployed a Python app via ECS. Configured the **Launch Type as Fargate** for a serverless compute experience, bypassing EC2 management.
+- **Lab:** [Go to Day-038](./Day-038)
+- **Thoughts:** Selecting the Launch Type is the fork in the road. By choosing Fargate, we traded infrastructure control for operational simplicity and "pay-as-you-go" compute.
