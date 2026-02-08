@@ -380,3 +380,11 @@
 - **Activity:** Deployed a Python app via ECS. Configured the **Launch Type as Fargate** for a serverless compute experience, bypassing EC2 management.
 - **Lab:** [Go to Day-038](./Day-038)
 - **Thoughts:** Selecting the Launch Type is the fork in the road. By choosing Fargate, we traded infrastructure control for operational simplicity and "pay-as-you-go" compute.
+
+### 🗓️ Day 39: Hosting a Static Website on AWS S3
+
+**Date:** Feb 08, 2026
+
+- **Activity:** Configured an S3 bucket (`nautilus-web-23944`) for static hosting. Documented the transition through 403 Forbidden and 404 Not Found errors to reach a successful 200 OK state.
+- **Lab:** [Go to Day-039](./Day-039)
+- **Thoughts:** Troubleshooting S3 access is easier when you understand that 403 means "Check Permissions" and 404 means "Check Objects."
