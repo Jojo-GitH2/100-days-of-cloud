@@ -381,6 +381,8 @@
 - **Lab:** [Go to Day-038](./Day-038)
 - **Thoughts:** Selecting the Launch Type is the fork in the road. By choosing Fargate, we traded infrastructure control for operational simplicity and "pay-as-you-go" compute.
 
+---
+
 ### 🗓️ Day 39: Hosting a Static Website on AWS S3
 
 **Date:** Feb 08, 2026
@@ -388,3 +390,13 @@
 - **Activity:** Configured an S3 bucket (`nautilus-web-23944`) for static hosting. Documented the transition through 403 Forbidden and 404 Not Found errors to reach a successful 200 OK state.
 - **Lab:** [Go to Day-039](./Day-039)
 - **Thoughts:** Troubleshooting S3 access is easier when you understand that 403 means "Check Permissions" and 404 means "Check Objects."
+
+---
+
+### 🗓️ Day 40: VPC Troubleshooting (Visual Audit)
+
+**Date:** Feb 09, 2026
+
+- **Activity:** Used the VPC Resource Map to diagnose a detached Internet Gateway (`datacenter-ig`). Re-attached the IGW to restore internet flow to `datacenter-ec2`.
+- **Lab:** [Go to Day-040](./Day-040)
+- **Thoughts:** The VPC Resource Map is a life-saver for quick audits. It instantly highlighted the "gap" between our VPC and the internet, saving time on manual route table checks.
