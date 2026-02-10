@@ -400,3 +400,13 @@
 - **Activity:** Used the VPC Resource Map to diagnose a detached Internet Gateway (`datacenter-ig`). Re-attached the IGW to restore internet flow to `datacenter-ec2`.
 - **Lab:** [Go to Day-040](./Day-040)
 - **Thoughts:** The VPC Resource Map is a life-saver for quick audits. It instantly highlighted the "gap" between our VPC and the internet, saving time on manual route table checks.
+
+---
+
+### 🗓️ Day 41: Data Security with AWS KMS
+
+**Date:** Feb 10, 2026
+
+- **Activity:** Created a symmetric KMS key (`datacenter-KMS-Key`) and utilized the AWS CLI to encrypt/decrypt local sensitive files using Base64 encoding.
+- **Lab:** [Go to Day-041](./Day-041)
+- **Thoughts:** KMS simplifies the complex math of encryption into a simple API call. The key takeaway is using `fileb://` in the CLI to ensure binary data is handled correctly during the process.
