@@ -410,3 +410,13 @@
 - **Activity:** Created a symmetric KMS key (`datacenter-KMS-Key`) and utilized the AWS CLI to encrypt/decrypt local sensitive files using Base64 encoding.
 - **Lab:** [Go to Day-041](./Day-041)
 - **Thoughts:** KMS simplifies the complex math of encryption into a simple API call. The key takeaway is using `fileb://` in the CLI to ensure binary data is handled correctly during the process.
+
+---
+
+### 🗓️ Day 42: Amazon DynamoDB
+
+**Date:** Feb 11, 2026
+
+- **Activity:** Provisioned a DynamoDB table (`xfusion-tasks`) and performed manual item insertion to manage task data for a serverless application.
+- **Lab:** [Go to Day-042](./Day-042)
+- **Thoughts:** DynamoDB's simplicity is its strength. There’s no connection string to manage or server to patch; you just create the table and start writing data.
