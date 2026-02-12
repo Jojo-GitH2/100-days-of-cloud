@@ -420,3 +420,13 @@
 - **Activity:** Provisioned a DynamoDB table (`xfusion-tasks`) and performed manual item insertion to manage task data for a serverless application.
 - **Lab:** [Go to Day-042](./Day-042)
 - **Thoughts:** DynamoDB's simplicity is its strength. There’s no connection string to manage or server to patch; you just create the table and start writing data.
+
+---
+
+### 🗓️ Day 43: Amazon EKS Cluster Setup
+
+**Date:** Feb 12, 2026
+
+- **Activity:** Provisioned a private Amazon EKS cluster (`datacenter-eks`) using the latest Kubernetes version across three Availability Zones.
+- **Lab:** [Go to Day-043](./Day-043)
+- **Thoughts:** Configuring the cluster endpoint as Private is a major security win. It forces all administrative traffic through secure internal channels, which is a standard requirement for enterprise-grade infrastructure.
