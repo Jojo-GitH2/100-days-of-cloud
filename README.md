@@ -430,3 +430,13 @@
 - **Activity:** Provisioned a private Amazon EKS cluster (`datacenter-eks`) using the latest Kubernetes version across three Availability Zones.
 - **Lab:** [Go to Day-043](./Day-043)
 - **Thoughts:** Configuring the cluster endpoint as Private is a major security win. It forces all administrative traffic through secure internal channels, which is a standard requirement for enterprise-grade infrastructure.
+
+---
+
+### 🗓️ Day 44: Auto Scaling & Load Balancing (AL2023)
+
+**Date:** Feb 13, 2026
+
+- **Activity:** Created a self-healing architecture using an ALB (`xfusion-alb`) and ASG (`xfusion-asg`). Troubleshot the resource dependency by creating Security Groups prior to the Launch Template.
+- **Lab:** [Go to Day-044](./Day-044)
+- **Thoughts:** Ordering matters in AWS. Creating the security groups first is a small but vital step that prevents "circular dependency" errors when building out automated infrastructure.
