@@ -440,3 +440,13 @@
 - **Activity:** Created a self-healing architecture using an ALB (`xfusion-alb`) and ASG (`xfusion-asg`). Troubleshot the resource dependency by creating Security Groups prior to the Launch Template.
 - **Lab:** [Go to Day-044](./Day-044)
 - **Thoughts:** Ordering matters in AWS. Creating the security groups first is a small but vital step that prevents "circular dependency" errors when building out automated infrastructure.
+
+---
+
+### 🗓️ Day 45: NAT Gateway Implementation
+
+**Date:** Feb 14, 2026
+
+- **Activity:** Enabled outbound internet access for a private EC2 instance by deploying a NAT Gateway (`datacenter-natgw`) in a newly created public subnet.
+- **Lab:** [Go to Day-045](./Day-045)
+- **Thoughts:** This is the standard "Safe" architecture. Keep your servers in private subnets and use a NAT Gateway for outbound needs. It provides security without sacrificing functionality.
