@@ -13,8 +13,8 @@ Provision a public S3 bucket, enable static web hosting, and troubleshoot access
 
 ### Step 1: Create the S3 Bucket
 
-1.  Created an S3 bucket named `nautilus-web-23944`.
-2.  **Public Access:** During creation, I explicitly **unchecked** the "Block all public access" settings to allow for future public hosting.
+1. Created an S3 bucket named `nautilus-web-23944`.
+2. **Public Access:** During creation, I explicitly **unchecked** the "Block all public access" settings to allow for future public hosting.
     ![alt text](./assets/image-1.png)
     ![alt text](./assets/image-2.png)
     ![alt text](./assets/image-4.png)
@@ -23,22 +23,22 @@ Provision a public S3 bucket, enable static web hosting, and troubleshoot access
 
 ### Step 2: Configure Static Website Hosting
 
-1.  Navigated to the **Properties** tab and enabled **Static website hosting**.
-2.  Set the **Index document** to `index.html`.
+1. Navigated to the **Properties** tab and enabled **Static website hosting**.
+2. Set the **Index document** to `index.html`.
     ![alt text](./assets/image-6.png)
     ![alt text](./assets/image-7.png)
     ![alt text](./assets/image-8.png)
     ![alt text](./assets/image-9.png)
 
-3.  **State 1: 403 Forbidden**
+3. **State 1: 403 Forbidden**
     - Visiting the provided S3 website URL at this stage resulted in a **403 Forbidden** error.
     - **Diagnosis:** Disabling "Block Public Access" is not enough; the bucket still lacks an explicit policy to allow anonymous read access.
       ![alt text](./assets/image-10.png)
 
 ### Step 3: Apply Bucket Policy
 
-1.  Navigated to **Permissions** > **Bucket Policy**.
-2.  Added the following policy to allow `s3:GetObject` for all principals:
+1. Navigated to **Permissions** > **Bucket Policy**.
+2. Added the following policy to allow `s3:GetObject` for all principals:
 
 ```json
 {
@@ -59,7 +59,7 @@ Provision a public S3 bucket, enable static web hosting, and troubleshoot access
 ![alt text](./assets/image-12.png)
 ![alt text](./assets/image-13.png)
 
-3.  **State 2: 404 Not Found**
+1. **State 2: 404 Not Found**
     - After saving the policy, refreshing the URL resulted in a **404 Not Found** error.
 
     - **Diagnosis**: The permissions are now correctly set (the 403 is gone), but the bucket is empty. AWS cannot find the `index.html` file defined in the hosting configuration.

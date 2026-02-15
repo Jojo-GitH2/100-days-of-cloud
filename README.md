@@ -450,3 +450,13 @@
 - **Activity:** Enabled outbound internet access for a private EC2 instance by deploying a NAT Gateway (`datacenter-natgw`) in a newly created public subnet.
 - **Lab:** [Go to Day-045](./Day-045)
 - **Thoughts:** This is the standard "Safe" architecture. Keep your servers in private subnets and use a NAT Gateway for outbound needs. It provides security without sacrificing functionality.
+
+---
+
+### 🗓️ Day 46: S3 Event Triggers & Lambda
+
+**Date:** Feb 15, 2026
+
+- **Activity:** Automated file transfers between S3 buckets using a Lambda trigger and logged metadata to DynamoDB.
+- **Lab:** [Go to Day-046](./Day-046)
+- **Thoughts:** This is a classic serverless pattern. Using S3 events to trigger code means we only pay for the exact milliseconds it takes to move and log the file.
