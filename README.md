@@ -460,3 +460,13 @@
 - **Activity:** Automated file transfers between S3 buckets using a Lambda trigger and logged metadata to DynamoDB.
 - **Lab:** [Go to Day-046](./Day-046)
 - **Thoughts:** This is a classic serverless pattern. Using S3 events to trigger code means we only pay for the exact milliseconds it takes to move and log the file.
+
+---
+
+### 🗓️ Day 47: SNS and SQS Priority Messaging
+
+**Date:** Feb 16, 2026
+
+- **Activity:** Deployed a priority-based messaging system using CloudFormation. Successfully integrated SNS filtering with SQS and a Lambda consumer while managing complex IAM permissions via Managed Policies.
+- **Lab:** [Go to Day-047](./Day-047)
+- **Thoughts:** Troubleshooting CloudFormation stacks is 50% networking and 50% IAM. Using S3 to host function code is a more scalable approach than inline scripts for complex environments.
