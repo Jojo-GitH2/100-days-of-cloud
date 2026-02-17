@@ -470,3 +470,13 @@
 - **Activity:** Deployed a priority-based messaging system using CloudFormation. Successfully integrated SNS filtering with SQS and a Lambda consumer while managing complex IAM permissions via Managed Policies.
 - **Lab:** [Go to Day-047](./Day-047)
 - **Thoughts:** Troubleshooting CloudFormation stacks is 50% networking and 50% IAM. Using S3 to host function code is a more scalable approach than inline scripts for complex environments.
+
+---
+
+### 🗓️ Day 48: Lambda Deployment via CloudFormation
+
+**Date:** Feb 17, 2026
+
+- **Activity:** Automated the deployment of a serverless Python function (`devops-lambda`) and its execution role using a CloudFormation YAML template.
+- **Lab:** [Go to Day-048](./Day-048)
+- **Thoughts:** Using the `ZipFile` property in CloudFormation is a great way to handle "utility" scripts. It keeps the infrastructure and the logic in a single, readable file.
