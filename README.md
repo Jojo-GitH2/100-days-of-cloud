@@ -480,3 +480,13 @@
 - **Activity:** Automated the deployment of a serverless Python function (`devops-lambda`) and its execution role using a CloudFormation YAML template.
 - **Lab:** [Go to Day-048](./Day-048)
 - **Thoughts:** Using the `ZipFile` property in CloudFormation is a great way to handle "utility" scripts. It keeps the infrastructure and the logic in a single, readable file.
+
+---
+
+### 🗓️ Day 49: Centralized Audit Logging (VPC Peering)
+
+**Date:** Feb 18, 2026
+
+- **Activity:** Engineered a multi-VPC log aggregation system. Configured VPC Peering, Bastion Host access, and automated log transfers using `scp` and the AWS CLI.
+- **Lab:** [Go to Day-049](./Day-049)
+- **Thoughts:** Precision in routing and the proper installation of the AWS CLI toolchain are key to moving data between isolated environments and S3 effectively.
