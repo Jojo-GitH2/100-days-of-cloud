@@ -490,3 +490,14 @@
 - **Activity:** Engineered a multi-VPC log aggregation system. Configured VPC Peering, Bastion Host access, and automated log transfers using `scp` and the AWS CLI.
 - **Lab:** [Go to Day-049](./Day-049)
 - **Thoughts:** Precision in routing and the proper installation of the AWS CLI toolchain are key to moving data between isolated environments and S3 effectively.
+
+
+---
+
+### 🗓️ Day 50: Dynamic EBS Volume Expansion
+
+**Date:** Feb 19, 2026
+
+- **Activity:** Performed a live storage expansion of the `xfusion-ec2` instance from 8 GiB to 12 GiB. Managed the partition and filesystem growth without instance downtime.
+- **Lab:** [Go to Day-050](./Day-050)
+- **Thoughts:** Halfway there! Dynamic scaling is a core cloud competency. Understanding the relationship between the block device, the partition, and the filesystem is vital for managing stateful applications.
