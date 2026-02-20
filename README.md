@@ -491,7 +491,6 @@
 - **Lab:** [Go to Day-049](./Day-049)
 - **Thoughts:** Precision in routing and the proper installation of the AWS CLI toolchain are key to moving data between isolated environments and S3 effectively.
 
-
 ---
 
 ### 🗓️ Day 50: Dynamic EBS Volume Expansion
@@ -501,3 +500,13 @@
 - **Activity:** Performed a live storage expansion of the `xfusion-ec2` instance from 8 GiB to 12 GiB. Managed the partition and filesystem growth without instance downtime.
 - **Lab:** [Go to Day-050](./Day-050)
 - **Thoughts:** Halfway there! Dynamic scaling is a core cloud competency. Understanding the relationship between the block device, the partition, and the filesystem is vital for managing stateful applications.
+
+### AZURE
+
+### 🗓️ Day 51: SSH Key Pair Generation
+
+**Date:** Feb 20, 2026
+
+- **Activity:** Kicked off the Azure migration phase by generating a managed RSA SSH key pair (`devops-kp`) for secure VM access.
+- **Lab:** [Go to Day-051](./Day-051)
+- **Thoughts:** New cloud, new challenges. Starting with managed keys establishes a strong security baseline for the next 50 days of the journey.
