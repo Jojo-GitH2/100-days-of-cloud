@@ -51,7 +51,7 @@ Generate a cloud-managed RSA SSH Key resource named `devops-kp` to serve as the 
    ![alt text](./assets/image-3.png)
 
    > [!Note]
-   > The step below should be the next step, however for today's task it is not required. In a real-world scenario, you would want to securely store the private key and ensure it has the correct permissions to prevent unauthorized access.
+   The step below should be the next step, however for today's task it is not required. In a real-world scenario, you would want to securely store the private key and ensure it has the correct permissions to prevent unauthorized access.
 
 3. **Local Permissions:**
    Moved the key to the `~/.ssh/` directory and applied strict permissions:
