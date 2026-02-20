@@ -4,7 +4,7 @@
 
 The Nautilus DevOps team has initiated a multi-phase migration strategy to transition infrastructure to the **Azure Cloud**. Recognizing the complexity of cloud migrations, the team is following an incremental approach. The foundational step for this migration is ensuring secure, key-based access for all future Linux-based Virtual Machines.
 
-![alt text](.assets/image.png)
+![alt text](./assets/image.png)
 
 **The Goal:**
 
@@ -27,7 +27,7 @@ Generate a cloud-managed RSA SSH Key resource named `devops-kp` to serve as the 
 
 1. Navigate to the **Azure Portal**.
 2. In the global search, type **"SSH Keys"** and select the service.
-   ![alt text](.assets/image-1.png)
+   ![alt text](./assets/image-1.png)
 3. Click **Create**.
 
 4. **Project Details:**
@@ -37,7 +37,7 @@ Generate a cloud-managed RSA SSH Key resource named `devops-kp` to serve as the 
    - **Name:** `devops-kp`.
    - **Region:** Standardized to the project's primary region (e.g., `East US`).
    - **SSH public key source:** Selected **Generate new key pair**.
-     ![alt text](.assets/image-2.png)
+     ![alt text](./assets/image-2.png)
 
 ### 2. Configure Key Parameters
 
@@ -48,7 +48,7 @@ Generate a cloud-managed RSA SSH Key resource named `devops-kp` to serve as the 
 
 1. Once validation passed, clicked **Create**.
 2. **Private Key Download:** Azure prompted to download the private key. I saved the `devops-kp.pem` file immediately.
-   ![alt text](.assets/image-3.png)
+   ![alt text](./assets/image-3.png)
 
    > [!Note]
    > The step below should be the next step, however for today's task it is not required. In a real-world scenario, you would want to securely store the private key and ensure it has the correct permissions to prevent unauthorized access.
@@ -66,7 +66,7 @@ Generate a cloud-managed RSA SSH Key resource named `devops-kp` to serve as the 
 
 1. **Portal Check:** Verified the `devops-kp` resource appears in the SSH Keys list with a "Succeeded" provisioning state.
 
-   ![alt text](.assets/image-4.png)
+   ![alt text](./assets/image-4.png)
 
 ## 🧠 Theory: RSA in Azure Infrastructure
 
@@ -74,4 +74,4 @@ Generate a cloud-managed RSA SSH Key resource named `devops-kp` to serve as the 
 - **Managed Public Keys:** By creating an Azure "Resource," we aren't just making a file; we are creating a metadata object in the Azure Resource Manager (ARM). This allows us to inject the public key into any new VM by simply referencing the resource ID, rather than managing raw strings.
 - **Zero-Knowledge Private Keys:** Azure does not store the private key. If the `.pem` file is not downloaded during the initial creation, it cannot be recovered, requiring the creation of a new resource.
 
-![alt text](.assets/image-5.png)
+![alt text](./assets/image-5.png)
