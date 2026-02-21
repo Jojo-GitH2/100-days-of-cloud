@@ -503,6 +503,8 @@
 
 ### AZURE
 
+---
+
 ### 🗓️ Day 51: SSH Key Pair Generation
 
 **Date:** Feb 20, 2026
@@ -510,3 +512,13 @@
 - **Activity:** Kicked off the Azure migration phase by generating a managed RSA SSH key pair (`devops-kp`) for secure VM access.
 - **Lab:** [Go to Day-051](./Day-051)
 - **Thoughts:** New cloud, new challenges. Starting with managed keys establishes a strong security baseline for the next 50 days of the journey.
+
+---
+
+### 🗓️ Day 52 (Azure Day 2): Virtual Machine Deployment
+
+**Date:** Feb 21, 2026
+
+- **Activity:** Provisioned an Ubuntu 24.04 VM (`devops-vm`) in Central US. Configured custom Standard HDD storage and NSG rules for SSH access.
+- **Lab:** [Go to Day-052](./Day-052)
+- **Thoughts:** Moving from AWS EC2 to Azure VM feels familiar, but the resource grouping and NSG attachment flow are different. The B-series is a great entry point for this migration.
