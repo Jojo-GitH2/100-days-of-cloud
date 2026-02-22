@@ -515,10 +515,20 @@
 
 ---
 
-### 🗓️ Day 52 (Azure Day 2): Virtual Machine Deployment
+### 🗓️ Day 52: Virtual Machine Deployment
 
 **Date:** Feb 21, 2026
 
 - **Activity:** Provisioned an Ubuntu 24.04 VM (`devops-vm`) in Central US. Configured custom Standard HDD storage and NSG rules for SSH access.
 - **Lab:** [Go to Day-052](./Day-052)
 - **Thoughts:** Moving from AWS EC2 to Azure VM feels familiar, but the resource grouping and NSG attachment flow are different. The B-series is a great entry point for this migration.
+
+---
+
+### 🗓️ Day 53: CLI-Based VM Provisioning
+
+**Date:** Feb 22, 2026
+
+- **Activity:** Automated the deployment of `datacenter-vm` using the Azure CLI. Configured Standard_LRS storage and 30GB disk sizing.
+- **Lab:** [Go to Day-053](./Day-053)
+- **Thoughts:** Moving away from the portal is a major milestone. Mastering the `az` command suite is what separates a cloud user from a Cloud Engineer.
