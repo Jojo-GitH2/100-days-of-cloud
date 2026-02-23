@@ -532,3 +532,13 @@
 - **Activity:** Automated the deployment of `datacenter-vm` using the Azure CLI. Configured Standard_LRS storage and 30GB disk sizing.
 - **Lab:** [Go to Day-053](./Day-053)
 - **Thoughts:** Moving away from the portal is a major milestone. Mastering the `az` command suite is what separates a cloud user from a Cloud Engineer.
+
+---
+
+### 🗓️ Day 54 (Azure Day 4): Virtual Network Foundation
+
+**Date:** Feb 23, 2026
+
+- **Activity:** Provisioned the primary Virtual Network (`nautilus-vnet`) in Central US to serve as the backbone for the migrated infrastructure.
+- **Lab:** [Go to Day-054](./Day-054)
+- **Thoughts:** Networking is the foundation of any cloud migration. Establishing a clean, well-defined CIDR block today prevents routing headaches tomorrow.
