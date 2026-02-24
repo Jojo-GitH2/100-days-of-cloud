@@ -542,3 +542,13 @@
 - **Activity:** Provisioned the primary Virtual Network (`nautilus-vnet`) in Central US to serve as the backbone for the migrated infrastructure.
 - **Lab:** [Go to Day-054](./Day-054)
 - **Thoughts:** Networking is the foundation of any cloud migration. Establishing a clean, well-defined CIDR block today prevents routing headaches tomorrow.
+
+---
+
+### 🗓️ Day 55 (Azure Day 5): Regional VNet Expansion
+
+**Date:** Feb 24, 2026
+
+- **Activity:** Provisioned `xfusion-vnet` in the East US region with a specialized `192.168.0.0/24` IPv4 address space.
+- **Lab:** [Go to Day-055](./Day-055)
+- **Thoughts:** Incremental migration often requires different IP strategies for different services. Moving to the 192.168.x.x range allows us to separate management traffic from application traffic.
