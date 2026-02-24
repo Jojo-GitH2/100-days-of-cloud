@@ -1,4 +1,4 @@
-# Day 55 (Azure Day 5): Create a Virtual Network (IPv4) in Azure
+# Day 55: Create a Virtual Network (IPv4) in Azure
 
 ## Project Description
 

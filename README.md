@@ -535,7 +535,7 @@
 
 ---
 
-### 🗓️ Day 54 (Azure Day 4): Virtual Network Foundation
+### 🗓️ Day 54: Virtual Network Foundation
 
 **Date:** Feb 23, 2026
 
@@ -545,7 +545,7 @@
 
 ---
 
-### 🗓️ Day 55 (Azure Day 5): Regional VNet Expansion
+### 🗓️ Day 55: Regional VNet Expansion
 
 **Date:** Feb 24, 2026
 
