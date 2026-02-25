@@ -552,3 +552,13 @@
 - **Activity:** Provisioned `xfusion-vnet` in the East US region with a specialized `192.168.0.0/24` IPv4 address space.
 - **Lab:** [Go to Day-055](./Day-055)
 - **Thoughts:** Incremental migration often requires different IP strategies for different services. Moving to the 192.168.x.x range allows us to separate management traffic from application traffic.
+
+---
+
+### 🗓️ Day 56 (Azure Day 6): Subnet Segmentation
+
+**Date:** Feb 25, 2026
+
+- **Activity:** Provisioned the `xfusion-vnet` (`10.0.0.0/16`) and created its first functional segment, `xfusion-subnet` (`10.0.0.0/24`), in Central US.
+- **Lab:** [Go to Day-056](./Day-056)
+- **Thoughts:** A VNet without a subnet is like a house without a rooms. Today, we laid the foundation for our first Azure-hosted applications.
