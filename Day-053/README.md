@@ -1,4 +1,4 @@
-# Day 53 (Azure Day 3): Create VM using Azure CLI
+# Day 53: Create VM using Azure CLI
 
 ## Project Description
 

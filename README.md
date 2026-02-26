@@ -555,10 +555,20 @@
 
 ---
 
-### 🗓️ Day 56 (Azure Day 6): Subnet Segmentation
+### 🗓️ Day 56: Subnet Segmentation
 
 **Date:** Feb 25, 2026
 
 - **Activity:** Provisioned the `xfusion-vnet` (`10.0.0.0/16`) and created its first functional segment, `xfusion-subnet` (`10.0.0.0/24`), in Central US.
 - **Lab:** [Go to Day-056](./Day-056)
 - **Thoughts:** A VNet without a subnet is like a house without a rooms. Today, we laid the foundation for our first Azure-hosted applications.
+
+---
+
+### 🗓️ Day 57: Public IP Allocation
+
+**Date:** Feb 26, 2026
+
+- **Activity:** Provisioned a static Public IP address (`nautilus-pip`) in Central US via the Azure Portal.
+- **Lab:** [Go to Day-057](./Day-057)
+- **Thoughts:** An IP address is the "front door" of our cloud infrastructure. Allocating a static Public IP today ensures we have a consistent endpoint for future VM connectivity and management.
