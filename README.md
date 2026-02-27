@@ -572,3 +572,13 @@
 - **Activity:** Provisioned a static Public IP address (`nautilus-pip`) in Central US via the Azure Portal.
 - **Lab:** [Go to Day-057](./Day-057)
 - **Thoughts:** An IP address is the "front door" of our cloud infrastructure. Allocating a static Public IP today ensures we have a consistent endpoint for future VM connectivity and management.
+
+---
+
+### 🗓️ Day 58: Managed Disk Attachment
+
+**Date:** Feb 27, 2026
+
+- **Activity:** Used the Azure CLI to hot-attach `nautilus-disk` to `nautilus-vm` in the East US region.
+- **Lab:** [Go to Day-058](./Day-058)
+- **Thoughts:** The CLI makes storage operations incredibly fast. Being able to programmatically query a Disk ID and attach it to a VM is a key skill for scaling infrastructure.
