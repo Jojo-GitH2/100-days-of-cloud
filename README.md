@@ -581,4 +581,4 @@
 
 - **Activity:** Used the Azure CLI to hot-attach `nautilus-disk` to `nautilus-vm` in the East US region.
 - **Lab:** [Go to Day-058](./Day-058)
-- **Thoughts:** The CLI makes storage operations incredibly fast. Being able to programmatically query a Disk ID and attach it to a VM is a key skill for scaling infrastructure.
+- **Thoughts:** Storage management is about flexibility. Attaching a data disk separately from the OS disk is a best practice for managing large application datasets.
