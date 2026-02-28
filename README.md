@@ -582,3 +582,13 @@
 - **Activity:** Used the Azure CLI to hot-attach `nautilus-disk` to `nautilus-vm` in the East US region.
 - **Lab:** [Go to Day-058](./Day-058)
 - **Thoughts:** Storage management is about flexibility. Attaching a data disk separately from the OS disk is a best practice for managing large application datasets.
+
+---
+
+### 🗓️ Day 59: Multi-NIC Configuration
+
+**Date:** Feb 28, 2026
+
+- **Activity:** Successfully attached `xfusion-nic` to `xfusion-vm` via the Azure CLI. Resolved attachment constraints by deallocating the VM before reconfiguration.
+- **Lab:** [Go to Day-059](./Day-059)
+- **Thoughts:** The lab provided a great lesson in state management. You can't always modify hardware on the fly; sometimes you have to power down to scale up.
