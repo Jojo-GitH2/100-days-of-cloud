@@ -592,3 +592,13 @@
 - **Activity:** Successfully attached `xfusion-nic` to `xfusion-vm` via the Azure CLI. Resolved attachment constraints by deallocating the VM before reconfiguration.
 - **Lab:** [Go to Day-059](./Day-059)
 - **Thoughts:** The lab provided a great lesson in state management. You can't always modify hardware on the fly; sometimes you have to power down to scale up.
+
+---
+
+### 🗓️ Day 60 (Azure Day 10): Public IP Association
+
+**Date:** Mar 01, 2026
+
+- **Activity:** Associated the `devops-pip` resource with the `devops-vm-pip` network interface using the Azure CLI.
+- **Lab:** [Go to Day-060](./Day-060)
+- **Thoughts:** This marks the completion of the basic connectivity phase. The VM is now reachable, and we've successfully navigated the 10-day Azure introduction.
