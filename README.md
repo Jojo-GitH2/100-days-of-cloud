@@ -602,3 +602,13 @@
 - **Activity:** Associated the `devops-pip` resource with the `devops-vm-pip` network interface using the Azure CLI.
 - **Lab:** [Go to Day-060](./Day-060)
 - **Thoughts:** This marks the completion of the basic connectivity phase. The VM is now reachable, and we've successfully navigated the 10-day Azure introduction.
+
+---
+
+### 🗓️ Day 61 (Azure Day 11): Vertical Scaling & Optimization
+
+**Date:** Mar 02, 2026
+
+- **Activity:** Resized `datacenter-vm` from `Standard_B1s` to `Standard_B2s` via the Azure Portal to optimize resource usage.
+- **Lab:** [Go to Day-061](./Day-061)
+- **Thoughts:** Vertical scaling is one of the quickest ways to handle performance bottlenecks. It’s a reminder that cloud infrastructure is elastic—you aren't locked into your initial hardware choices.
