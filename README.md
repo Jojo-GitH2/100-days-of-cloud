@@ -595,7 +595,7 @@
 
 ---
 
-### 🗓️ Day 60 (Azure Day 10): Public IP Association
+### 🗓️ Day 60: Public IP Association
 
 **Date:** Mar 01, 2026
 
@@ -605,7 +605,7 @@
 
 ---
 
-### 🗓️ Day 61 (Azure Day 11): Vertical Scaling & Optimization
+### 🗓️ Day 61: Vertical Scaling & Optimization
 
 **Date:** Mar 02, 2026
 
@@ -615,7 +615,7 @@
 
 ---
 
-### 🗓️ Day 62 (Azure Day 12): Resource Tagging & Governance
+### 🗓️ Day 62: Resource Tagging & Governance
 
 **Date:** Mar 03, 2026
 
