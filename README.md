@@ -612,3 +612,13 @@
 - **Activity:** Resized `datacenter-vm` from `Standard_B1s` to `Standard_B2s` via the Azure Portal to optimize resource usage.
 - **Lab:** [Go to Day-061](./Day-061)
 - **Thoughts:** Vertical scaling is one of the quickest ways to handle performance bottlenecks. It’s a reminder that cloud infrastructure is elastic—you aren't locked into your initial hardware choices.
+
+---
+
+### 🗓️ Day 62 (Azure Day 12): Resource Tagging & Governance
+
+**Date:** Mar 03, 2026
+
+- **Activity:** Applied organizational metadata (`Environment=dev`) to the `devops-vm` to improve resource tracking and cost allocation.
+- **Lab:** [Go to Day-062](./Day-062)
+- **Thoughts:** Tagging might seem like a small task, but it's the foundation of a "well-architected" cloud. If you can't label it, you can't manage it.
