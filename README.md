@@ -622,3 +622,13 @@
 - **Activity:** Applied organizational metadata (`Environment=dev`) to the `devops-vm` to improve resource tracking and cost allocation.
 - **Lab:** [Go to Day-062](./Day-062)
 - **Thoughts:** Tagging might seem like a small task, but it's the foundation of a "well-architected" cloud. If you can't label it, you can't manage it.
+
+---
+
+### 🗓️ Day 63 (Azure Day 13): Secure SSH Automation
+
+**Date:** Mar 04, 2026
+
+- **Activity:** Configured passwordless SSH access for the `root` user on `nautilus-vm`. Managed NSG port opening and key injection via CLI and SCP.
+- **Lab:** [Go to Day-063](./Day-063)
+- **Thoughts:** This was a great exercise in Linux permission management and Azure networking. Setting the `PermitRootLogin` correctly is a small but vital step for management automation.
