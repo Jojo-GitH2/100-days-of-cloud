@@ -625,10 +625,20 @@
 
 ---
 
-### 🗓️ Day 63 (Azure Day 13): Secure SSH Automation
+### 🗓️ Day 63: Secure SSH Automation
 
 **Date:** Mar 04, 2026
 
 - **Activity:** Configured passwordless SSH access for the `root` user on `nautilus-vm`. Managed NSG port opening and key injection via CLI and SCP.
 - **Lab:** [Go to Day-063](./Day-063)
 - **Thoughts:** This was a great exercise in Linux permission management and Azure networking. Setting the `PermitRootLogin` correctly is a small but vital step for management automation.
+
+---
+
+### 🗓️ Day 64: Managed Disk Provisioning
+
+**Date:** Mar 05, 2026
+
+- **Activity:** Provisioned a 2 GiB managed disk (`xfusion-disk`) with Standard_LRS redundancy in the East US region using the Azure Portal.
+- **Lab:** [Go to Day-064](./Day-064)
+- **Thoughts:** Even small resources require proper configuration. Using the portal today allowed me to visualize the different redundancy tiers and performance SKUs available for managed storage.
