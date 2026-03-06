@@ -642,3 +642,13 @@
 - **Activity:** Provisioned a 2 GiB managed disk (`xfusion-disk`) with Standard_LRS redundancy in the East US region using the Azure Portal.
 - **Lab:** [Go to Day-064](./Day-064)
 - **Thoughts:** Even small resources require proper configuration. Using the portal today allowed me to visualize the different redundancy tiers and performance SKUs available for managed storage.
+
+---
+
+### 🗓️ Day 65: Network Security Hardening
+
+**Date:** Mar 07, 2026
+
+- **Activity:** Provisioned `devops-nsg` and configured inbound rules for HTTP (80) and SSH (22) traffic via the Azure Portal.
+- **Lab:** [Go to Day-065](./Day-065)
+- **Thoughts:** The NSG is our first line of defense. Understanding how to wrap these rules around our subnets and VMs is the key to a "Zero Trust" architecture in Azure.
