@@ -652,3 +652,13 @@
 - **Activity:** Provisioned `devops-nsg` and configured inbound rules for HTTP (80) and SSH (22) traffic via the Azure Portal.
 - **Lab:** [Go to Day-065](./Day-065)
 - **Thoughts:** The NSG is our first line of defense. Understanding how to wrap these rules around our subnets and VMs is the key to a "Zero Trust" architecture in Azure.
+
+---
+
+### 🗓️ Day 66: Object Storage Implementation
+
+**Date:** Mar 08, 2026
+
+- **Activity:** Provisioned a globally unique Storage Account (`nautilusst20288`) and a private Blob container (`nautilus-blob-24087`) in the East US region.
+- **Lab:** [Go to Day-066](./Day-066)
+- **Thoughts:** Data is the heart of any migration. Moving from block storage (disks) to object storage (blobs) allows us to store massive amounts of unstructured data with high durability and low cost.
