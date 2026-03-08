@@ -647,7 +647,7 @@
 
 ### 🗓️ Day 65: Network Security Hardening
 
-**Date:** Mar 07, 2026
+**Date:** Mar 06, 2026
 
 - **Activity:** Provisioned `devops-nsg` and configured inbound rules for HTTP (80) and SSH (22) traffic via the Azure Portal.
 - **Lab:** [Go to Day-065](./Day-065)
@@ -657,8 +657,18 @@
 
 ### 🗓️ Day 66: Object Storage Implementation
 
-**Date:** Mar 08, 2026
+**Date:** Mar 07, 2026
 
 - **Activity:** Provisioned a globally unique Storage Account (`nautilusst20288`) and a private Blob container (`nautilus-blob-24087`) in the East US region.
 - **Lab:** [Go to Day-066](./Day-066)
 - **Thoughts:** Data is the heart of any migration. Moving from block storage (disks) to object storage (blobs) allows us to store massive amounts of unstructured data with high durability and low cost.
+
+---
+
+### 🗓️ Day 67 (Azure Day 17): Public Data Distribution
+
+**Date:** Mar 08, 2026
+
+- **Activity:** Provisioned a public Storage Account (`datacenterst22928`) and Blob container (`datacenter-blob-10172`) to facilitate anonymous read access for migrated assets.
+- **Lab:** [Go to Day-067](./Day-067)
+- **Thoughts:** Security is about the "Right Access" for the "Right Data." While 99% of our data is private, mastering the configuration for public assets is key for web serving.
