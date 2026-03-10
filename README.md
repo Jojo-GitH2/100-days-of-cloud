@@ -665,7 +665,7 @@
 
 ---
 
-### 🗓️ Day 67 (Azure Day 17): Public Data Distribution
+### 🗓️ Day 67: Public Data Distribution
 
 **Date:** Mar 08, 2026
 
@@ -675,10 +675,20 @@
 
 ---
 
-### 🗓️ Day 68 (Azure Day 18): Data Migration & Ingestion
+### 🗓️ Day 68: Data Migration & Ingestion
 
 **Date:** Mar 09, 2026
 
 - **Activity:** Transferred local data (`datacenter.txt`) to the `datacenterst18054` storage account in West US using the Azure CLI.
 - **Lab:** [Go to Day-068](./Day-068)
 - **Thoughts:** This is the first "real" movement of data in the Azure phase. Mastering the data plane via CLI is essential for automating log archival and backup rotations.
+
+---
+
+### 🗓️ Day 69: Container Security Hardening
+
+**Date:** Mar 10, 2026
+
+- **Activity:** Converted `datacenter-container-30648` from public to private access in the `centralus` region. Hardened the storage perimeter via the Azure CLI.
+- **Lab:** [Go to Day-069](./Day-069)
+- **Thoughts:** Security is a continuous process. Finding a "Public" container and immediately restricting it is a win for the team's overall data protection strategy.
