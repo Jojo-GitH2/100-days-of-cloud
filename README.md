@@ -672,3 +672,13 @@
 - **Activity:** Provisioned a public Storage Account (`datacenterst22928`) and Blob container (`datacenter-blob-10172`) to facilitate anonymous read access for migrated assets.
 - **Lab:** [Go to Day-067](./Day-067)
 - **Thoughts:** Security is about the "Right Access" for the "Right Data." While 99% of our data is private, mastering the configuration for public assets is key for web serving.
+
+---
+
+### 🗓️ Day 68 (Azure Day 18): Data Migration & Ingestion
+
+**Date:** Mar 09, 2026
+
+- **Activity:** Transferred local data (`datacenter.txt`) to the `datacenterst18054` storage account in West US using the Azure CLI.
+- **Lab:** [Go to Day-068](./Day-068)
+- **Thoughts:** This is the first "real" movement of data in the Azure phase. Mastering the data plane via CLI is essential for automating log archival and backup rotations.
