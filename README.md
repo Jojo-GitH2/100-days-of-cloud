@@ -692,3 +692,13 @@
 - **Activity:** Converted `datacenter-container-30648` from public to private access in the `centralus` region. Hardened the storage perimeter via the Azure CLI.
 - **Lab:** [Go to Day-069](./Day-069)
 - **Thoughts:** Security is a continuous process. Finding a "Public" container and immediately restricting it is a win for the team's overall data protection strategy.
+
+---
+
+### 🗓️ Day 70: Infrastructure as Code (ARM)
+
+**Date:** Mar 11, 2026
+
+- **Activity:** Modified and deployed an ARM template to provision the `arm-vnet-xfusion` Virtual Network. Implemented custom tagging and CIDR configurations.
+- **Lab:** [Go to Day-070](./Day-070)
+- **Thoughts:** This is a major shift in the migration strategy. Moving to templates allows us to treat our infrastructure just like our application code—editable, testable, and versioned.
