@@ -702,3 +702,13 @@
 - **Activity:** Modified and deployed an ARM template to provision the `arm-vnet-xfusion` Virtual Network. Implemented custom tagging and CIDR configurations.
 - **Lab:** [Go to Day-070](./Day-070)
 - **Thoughts:** This is a major shift in the migration strategy. Moving to templates allows us to treat our infrastructure just like our application code—editable, testable, and versioned.
+
+---
+
+### 🗓️ Day 71: Static IP & VM Provisioning
+
+**Date:** Mar 12, 2026
+
+- **Activity:** Used the Azure Portal to deploy `datacenter-vm` with a static public IP (`datacenter-pip`). Implemented SSH key-based authentication.
+- **Lab:** [Go to Day-071](./Day-071)
+- **Thoughts:** Configuring the static IP directly in the Networking tab of the VM creation blade is a clean way to ensure the resource is bound correctly from birth.
