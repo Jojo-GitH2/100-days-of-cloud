@@ -722,3 +722,14 @@
 - **Activity:** Deployed `devops-vm` using the Azure Portal. Utilized the "Advanced" tab to inject a Cloud-Init script for Nginx automation and enabled Port 80 ingress.
 - **Lab:** [Go to Day-072](./Day-072)
 - **Thoughts:** Using the portal to pass User Data is a great way to verify exactly what script is being sent to the instance. It turns a "blank" OS into a functional web server without a single SSH command.
+
+
+---
+
+### 🗓️ Day 73: CLI-Driven Bootstrapping
+
+**Date:** Mar 14, 2026
+
+- **Activity:** Automated the deployment of `datacenter-vm` in East US. Used CLI `--custom-data` to bootstrap Nginx and configured port 80 ingress programmatically.
+- **Lab:** [Go to Day-073](./Day-073)
+- **Thoughts:** This is the most efficient way to provision ad-hoc web servers. Scripting the entire flow—from VM creation to firewall configuration—is a massive productivity booster.
