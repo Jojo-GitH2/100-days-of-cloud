@@ -4,7 +4,7 @@
 
 As the Nautilus development team prepares to launch a new application tier, the requirement for a predictable external endpoint has become a priority. Today's task involves the end-to-end provisioning of a **Compute Instance** combined with a **Static Public IP** via the Azure Portal. By shifting from dynamic to static addressing, we ensure that the application's DNS records and firewall allow-lists remain valid even if the virtual machine is restarted or deallocated.
 
-![alt text](image.png)
+![alt text](./assets/image.png)
 
 **The Goal:**
 
@@ -47,8 +47,8 @@ cat ~/.ssh/id_rsa.pub
    - **Username:** azureuser.
    - **SSH public key source:** Use existing public key.
    - **Key:** Pasted the key generated in Step 1.
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](./assets/image-2.png)
+![alt text](./assets/image-3.png)
 
 2. **Networking Tab:**
    - **Public IP:** Clicked Create new.

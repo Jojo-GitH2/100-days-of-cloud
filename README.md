@@ -712,3 +712,13 @@
 - **Activity:** Used the Azure Portal to deploy `datacenter-vm` with a static public IP (`datacenter-pip`). Implemented SSH key-based authentication.
 - **Lab:** [Go to Day-071](./Day-071)
 - **Thoughts:** Configuring the static IP directly in the Networking tab of the VM creation blade is a clean way to ensure the resource is bound correctly from birth.
+
+---
+
+### 🗓️ Day 72: Automated Web Server Provisioning
+
+**Date:** Mar 13, 2026
+
+- **Activity:** Deployed `devops-vm` using the Azure Portal. Utilized the "Advanced" tab to inject a Cloud-Init script for Nginx automation and enabled Port 80 ingress.
+- **Lab:** [Go to Day-072](./Day-072)
+- **Thoughts:** Using the portal to pass User Data is a great way to verify exactly what script is being sent to the instance. It turns a "blank" OS into a functional web server without a single SSH command.
