@@ -723,7 +723,6 @@
 - **Lab:** [Go to Day-072](./Day-072)
 - **Thoughts:** Using the portal to pass User Data is a great way to verify exactly what script is being sent to the instance. It turns a "blank" OS into a functional web server without a single SSH command.
 
-
 ---
 
 ### 🗓️ Day 73: CLI-Driven Bootstrapping
@@ -733,3 +732,13 @@
 - **Activity:** Automated the deployment of `datacenter-vm` in East US. Used CLI `--custom-data` to bootstrap Nginx and configured port 80 ingress programmatically.
 - **Lab:** [Go to Day-073](./Day-073)
 - **Thoughts:** This is the most efficient way to provision ad-hoc web servers. Scripting the entire flow—from VM creation to firewall configuration—is a massive productivity booster.
+
+---
+
+### 🗓️ Day 74 (Azure Day 24): Secure SSH Architecture
+
+**Date:** Mar 15, 2026
+
+- **Activity:** Provisioned `devops-vm` in West US with enforced RSA-4096 key authentication. Established a secure, password-less management bridge from the `azure-client` host.
+- **Lab:** [Go to Day-074](./Day-074)
+- **Thoughts:** Password-less SSH is the foundation of secure automation. By automating the key injection at the VM's birth, we ensure it's never vulnerable to password sprays.
