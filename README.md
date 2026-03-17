@@ -742,3 +742,13 @@
 - **Activity:** Provisioned `devops-vm` in West US with enforced RSA-4096 key authentication. Established a secure, password-less management bridge from the `azure-client` host.
 - **Lab:** [Go to Day-074](./Day-074)
 - **Thoughts:** Password-less SSH is the foundation of secure automation. By automating the key injection at the VM's birth, we ensure it's never vulnerable to password sprays.
+
+---
+
+### 🗓️ Day 75 (Azure Day 25): Storage Expansion & Management
+
+**Date:** Mar 16, 2026
+
+- **Activity:** Performed a vertical resize of the `xfusion-vm` OS disk and provisioned a secondary 64 GiB HDD (`xfusion-disk`).
+- **Lab:** [Go to Day-075](./Day-075)
+- **Thoughts:** Corrected the resource names to match the `xfusion` naming convention. Resizing an OS disk is a high-impact task that requires deallocation—planning for that downtime is a core DevOps responsibility.
