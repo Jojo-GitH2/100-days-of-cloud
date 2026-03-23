@@ -752,3 +752,13 @@
 - **Activity:** Performed a vertical resize of the `xfusion-vm` OS disk and provisioned a secondary 64 GiB HDD (`xfusion-disk`).
 - **Lab:** [Go to Day-075](./Day-075)
 - **Thoughts:** Corrected the resource names to match the `xfusion` naming convention. Resizing an OS disk is a high-impact task that requires deallocation—planning for that downtime is a core DevOps responsibility.
+
+---
+
+### 🗓️ Day 76 (Azure Day 26): Public VNet Deployment
+
+**Date:** Mar 17, 2026
+
+- **Activity:** Provisioned `devops-pub-vnet` and `devops-pub-vm` via the Azure Portal. Configured auto-assignment of public IPs and enabled SSH ingress.
+- **Lab:** [Go to Day-076](./Day-076)
+- **Thoughts:** Moving services to a public-facing network requires a fine balance between accessibility and security. Today was about laying that bridge.
