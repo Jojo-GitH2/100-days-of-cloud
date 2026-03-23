@@ -735,7 +735,7 @@
 
 ---
 
-### 🗓️ Day 74 (Azure Day 24): Secure SSH Architecture
+### 🗓️ Day 74: Secure SSH Architecture
 
 **Date:** Mar 15, 2026
 
@@ -745,7 +745,7 @@
 
 ---
 
-### 🗓️ Day 75 (Azure Day 25): Storage Expansion & Management
+### 🗓️ Day 75: Storage Expansion & Management
 
 **Date:** Mar 16, 2026
 
@@ -755,7 +755,7 @@
 
 ---
 
-### 🗓️ Day 76 (Azure Day 26): Public VNet Deployment
+### 🗓️ Day 76: Public VNet Deployment
 
 **Date:** Mar 17, 2026
 
@@ -765,10 +765,20 @@
 
 ---
 
-### 🗓️ Day 77 (Azure Day 27): Private VNet & Isolation (CLI)
+### 🗓️ Day 77: Private VNet & Isolation
 
 **Date:** Mar 19, 2026
 
 - **Activity:** Provisioned a fully isolated `nautilus-priv-vnet` and `nautilus-priv-vm` in Central US using the Azure CLI. Configured NSG rules for explicit `10.0.0.0/16` CIDR-based SSH access and utilized Standard_LRS storage.
 - **Lab:** [Go to Day-077](./Day-077)
 - **Thoughts:** Redone with specific CIDR filtering for the NSG. This "Zero Trust" approach ensures that even internal traffic is audited against our specific IP schema.
+
+---
+
+### 🗓️ Day 78: Networking Troubleshooting
+
+**Date:** Mar 21, 2026
+
+- **Activity:** Resolved internet connectivity issues for `datacenter-vm`. Associated `datacenter-pip` and configured NSG rules for Port 80.
+- **Lab:** [Go to Day-078](./Day-078)
+- **Thoughts:** Troubleshooting is 50% technical knowledge and 50% following the packet. Today was a great reminder that a VM isn't "Public" until the NIC and the NSG both agree on it.
