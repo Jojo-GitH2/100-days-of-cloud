@@ -762,3 +762,13 @@
 - **Activity:** Provisioned `devops-pub-vnet` and `devops-pub-vm` via the Azure Portal. Configured auto-assignment of public IPs and enabled SSH ingress.
 - **Lab:** [Go to Day-076](./Day-076)
 - **Thoughts:** Moving services to a public-facing network requires a fine balance between accessibility and security. Today was about laying that bridge.
+
+---
+
+### 🗓️ Day 77 (Azure Day 27): Private VNet & Isolation (CLI)
+
+**Date:** Mar 19, 2026
+
+- **Activity:** Provisioned a fully isolated `nautilus-priv-vnet` and `nautilus-priv-vm` in Central US using the Azure CLI. Configured NSG rules for explicit `10.0.0.0/16` CIDR-based SSH access and utilized Standard_LRS storage.
+- **Lab:** [Go to Day-077](./Day-077)
+- **Thoughts:** Redone with specific CIDR filtering for the NSG. This "Zero Trust" approach ensures that even internal traffic is audited against our specific IP schema.
