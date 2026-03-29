@@ -816,3 +816,13 @@
 - **Activity:** Provisioned a Python Web App (`devops-webapp`) on a `Basic B1` Linux App Service Plan in West US. Configured resource tagging and disabled integrated monitoring.
 - **Lab:** [Go to Day-081](./Day-081)
 - **Thoughts:** This marks the first month of the Azure migration! Moving from managing VMs to PaaS Web Apps is a significant shift toward operational efficiency.
+
+---
+
+### 🗓️ Day 82: Container Synchronization
+
+**Date:** Mar 27, 2026
+
+- **Activity:** Created a private destination container (`devops-dest-26320`) and synchronized data from a source container using the Azure CLI. Performed integrity verification via MD5 metadata.
+- **Lab:** [Go to Day-082](./Day-082)
+- **Thoughts:** This task highlights the efficiency of server-side operations. Orchestrating data movement directly within the Azure backbone is the most reliable way to handle high-volume migrations.

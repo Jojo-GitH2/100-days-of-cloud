@@ -19,7 +19,7 @@ Deploy a Linux-based Python Web App named `devops-webapp` using a `Basic B1` App
 | **Region** | `West US` |
 | **App Service Plan** | `devops-learn-python` |
 | **Pricing Tier** | `Basic B1` |
-| **Application Insights**| Disabled |
+| **Application Insights** | Disabled |
 | **Tags** | `Name: WebAppLearning`, `Environment: Dev` |
 
 ---
