@@ -1,4 +1,4 @@
-# Day 66 (Azure Day 16): Create a Private Azure Blob Storage Container
+# Day 66: Create a Private Azure Blob Storage Container
 
 ## Project Description
 

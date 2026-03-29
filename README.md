@@ -808,3 +808,11 @@
 - **Thoughts:** Reaching 30 days of Azure! Moving to PaaS databases is a huge win for the migration. We've gone from managing raw disks to managing actual data services.
 
 ---
+
+### 🗓️ Day 81: Python Web App Deployment
+
+**Date:** Mar 25, 2026
+
+- **Activity:** Provisioned a Python Web App (`devops-webapp`) on a `Basic B1` Linux App Service Plan in West US. Configured resource tagging and disabled integrated monitoring.
+- **Lab:** [Go to Day-081](./Day-081)
+- **Thoughts:** This marks the first month of the Azure migration! Moving from managing VMs to PaaS Web Apps is a significant shift toward operational efficiency.

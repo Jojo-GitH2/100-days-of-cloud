@@ -1,4 +1,4 @@
-# Day 62 (Azure Day 12): Add and Manage Tags for Azure Virtual Machines
+# Day 62: Add and Manage Tags for Azure Virtual Machines
 
 ## Project Description
 

@@ -1,4 +1,4 @@
-# Day 64 (Azure Day 14): Create Managed Disks via Azure Portal
+# Day 64: Create Managed Disks via Azure Portal
 
 ## Project Description
 
