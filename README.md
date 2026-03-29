@@ -826,3 +826,13 @@
 - **Activity:** Created a private destination container (`devops-dest-26320`) and synchronized data from a source container using the Azure CLI. Performed integrity verification via MD5 metadata.
 - **Lab:** [Go to Day-082](./Day-082)
 - **Thoughts:** This task highlights the efficiency of server-side operations. Orchestrating data movement directly within the Azure backbone is the most reliable way to handle high-volume migrations.
+
+---
+
+### 🗓️ Day 83: Application Load Balancing
+
+**Date:** Mar 28, 2026
+
+- **Activity:** Deployed a Public Azure Load Balancer (`datacenter-lb`) to manage traffic for an Nginx web server. Configured health probes, backend pools, and NSG rules for HTTP traffic.
+- **Lab:** [Go to Day-083](./Day-083)
+- **Thoughts:** This is a critical step for high availability. By moving the public endpoint to the Load Balancer, we've prepared our infrastructure for horizontal scaling in the future.
