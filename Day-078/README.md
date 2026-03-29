@@ -85,6 +85,12 @@ Even with a Public IP, the default Azure security posture is "Deny All Inbound."
     curl <datacenter-vm-public-ip>
     ```
 
+![alt text](./assets/image-10.png)
+
+![alt text](./assets/image-11.png)
+
+![alt text](./assets/image-12.png)
+
 ---
 
 ## Verification
@@ -98,11 +104,5 @@ Even with a Public IP, the default Azure security posture is "Deny All Inbound."
 * **Layer 1: The NIC.** A VM cannot talk to the internet without a Public IP resource attached to its Network Interface. This is the physical-to-logical bridge in Azure.
 * **Layer 2: The NSG.** Even if the "wire" is connected, the firewall (NSG) acts as the gatekeeper. Troubleshooting must always verify both the Public IP association AND the Security Rules.
 * **Stateful Firewalling:** Remember that NSGs are stateful. Once I allowed Port 80 Inbound, Azure automatically handled the outbound response traffic.
-
-![alt text](./assets/image-10.png)
-
-![alt text](./assets/image-11.png)
-
-![alt text](./assets/image-12.png)
 
 ![alt text](./assets/image-13.png)

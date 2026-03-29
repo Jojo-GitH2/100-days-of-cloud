@@ -782,3 +782,11 @@
 - **Activity:** Resolved internet connectivity issues for `datacenter-vm`. Associated `datacenter-pip` and configured NSG rules for Port 80.
 - **Lab:** [Go to Day-078](./Day-078)
 - **Thoughts:** Troubleshooting is 50% technical knowledge and 50% following the packet. Today was a great reminder that a VM isn't "Public" until the NIC and the NSG both agree on it.
+
+### 🗓️ Day 79: Container Registry Management
+
+**Date:** Mar 22, 2026
+
+- **Activity:** Provisioned a private Azure Container Registry (`devopsacr14011`) and automated the build/push of the `pyapp` Docker image.
+- **Lab:** [Go to Day-079](./Day-079)
+- **Thoughts:** This is the bridge between development and production. Having a private registry ensures that our custom code (like the Python app) is versioned and protected.
