@@ -176,6 +176,8 @@
 - **Activity:** Created an IAM group (`iamgroup_james`) to facilitate scalable permission management.
 - **Lab:** [Go to Day-017](./Day-017)
 - **Thoughts:** This is about efficiency. Managing permissions at the Group level is the only way to stay sane in a large organization. It ensures that everyone with the same role has the exact same access.
+  
+---
 
 ### 🗓️ Day 18: Create Read-Only Policy
 
@@ -352,6 +354,8 @@
 - **Activity:** Deployed a PHP application on EC2 connected to a Private MySQL RDS. Troubleshot SSH permissions, reset DB credentials, and fixed Apache directory prioritization.
 - **Lab:** [Go to Day-035](./Day-035)
 - **Thoughts:** A perfect deployment is rare. I had to reset the RDS password, add a missing SSH rule to the Security Group, and modify `dir.conf` to get the page loading correctly.
+
+---
 
 ### 🗓️ Day 36: Application Load Balancer
 
@@ -783,6 +787,8 @@
 - **Lab:** [Go to Day-078](./Day-078)
 - **Thoughts:** Troubleshooting is 50% technical knowledge and 50% following the packet. Today was a great reminder that a VM isn't "Public" until the NIC and the NSG both agree on it.
 
+---
+
 ### 🗓️ Day 79: Container Registry Management
 
 **Date:** Mar 22, 2026
@@ -790,3 +796,15 @@
 - **Activity:** Provisioned a private Azure Container Registry (`devopsacr14011`) and automated the build/push of the `pyapp` Docker image.
 - **Lab:** [Go to Day-079](./Day-079)
 - **Thoughts:** This is the bridge between development and production. Having a private registry ensures that our custom code (like the Python app) is versioned and protected.
+
+---
+
+### 🗓️ Day 80: Managed SQL Provisioning
+
+**Date:** Mar 23, 2026
+
+- **Activity:** Provisioned a managed Azure SQL Database (`nautilus-sqldb`) on the `Basic` tier with 2GB storage in Central US.
+- **Lab:** [Go to Day-080](./Day-080)
+- **Thoughts:** Reaching 30 days of Azure! Moving to PaaS databases is a huge win for the migration. We've gone from managing raw disks to managing actual data services.
+
+---
