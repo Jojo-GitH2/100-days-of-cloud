@@ -846,3 +846,13 @@
 - **Activity:** Resolved internet connectivity issues on `devops-vm`. Identified an NSG outbound block and restored access for `apt` package installations.
 - **Lab:** [Go to Day-084](./Day-084)
 - **Thoughts:** This was a classic "Firewall vs. Router" troubleshooting scenario. In the cloud, always check your NSG rules before assuming a routing failure.
+
+---
+
+### 🗓️ Day 85: VNet Peering & Connectivity
+
+**Date:** Mar 29, 2026
+
+- **Activity:** Configured VNet Peering between a public and private network (`devops-pub-to-priv-peering`). Verified internal communication between VMs.
+- **Lab:** [Go to Day-085](./Day-085)
+- **Thoughts:** Peering is the "secret sauce" for a hub-and-spoke architecture. It allows us to keep our database servers in a private vault while still allowing the web tier to query them securely.
