@@ -836,3 +836,13 @@
 - **Activity:** Deployed a Public Azure Load Balancer (`datacenter-lb`) to manage traffic for an Nginx web server. Configured health probes, backend pools, and NSG rules for HTTP traffic.
 - **Lab:** [Go to Day-083](./Day-083)
 - **Thoughts:** This is a critical step for high availability. By moving the public endpoint to the Load Balancer, we've prepared our infrastructure for horizontal scaling in the future.
+
+---
+
+### 🗓️ Day 84: Outbound Connectivity Troubleshooting
+
+**Date:** Mar 28, 2026
+
+- **Activity:** Resolved internet connectivity issues on `devops-vm`. Identified an NSG outbound block and restored access for `apt` package installations.
+- **Lab:** [Go to Day-084](./Day-084)
+- **Thoughts:** This was a classic "Firewall vs. Router" troubleshooting scenario. In the cloud, always check your NSG rules before assuming a routing failure.
