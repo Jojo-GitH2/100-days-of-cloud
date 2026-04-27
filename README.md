@@ -856,3 +856,13 @@
 - **Activity:** Configured VNet Peering between a public and private network (`devops-pub-to-priv-peering`). Verified internal communication between VMs.
 - **Lab:** [Go to Day-085](./Day-085)
 - **Thoughts:** Peering is the "secret sauce" for a hub-and-spoke architecture. It allows us to keep our database servers in a private vault while still allowing the web tier to query them securely.
+
+---
+
+### 🗓️ Day 86: Storage Lifecycle Automation
+
+**Date:** Mar 30, 2026
+
+- **Activity:** Provisioned `devopsstor22023` and implemented a Lifecycle Management policy via CLI to auto-delete blobs after 7 days.
+- **Lab:** [Go to Day-086](./Day-086)
+- **Thoughts:** Automation isn't just about deployment; it's about cleanup. Proper lifecycle rules are the key to keeping cloud costs sustainable as the project grows.
