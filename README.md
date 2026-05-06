@@ -866,3 +866,13 @@
 - **Activity:** Provisioned `devopsstor22023` and implemented a Lifecycle Management policy via CLI to auto-delete blobs after 7 days.
 - **Lab:** [Go to Day-086](./Day-086)
 - **Thoughts:** Automation isn't just about deployment; it's about cleanup. Proper lifecycle rules are the key to keeping cloud costs sustainable as the project grows.
+
+---
+
+### 🗓️ Day 87: Distributed MySQL & PHP Integration
+
+**Date:** Mar 31, 2026
+
+- **Activity:** Deployed a Jetware MySQL VM in Central US and integrated it with an existing PHP application in East US. Validated remote DB connectivity.
+- **Lab:** [Go to Day-087](./Day-087)
+- **Thoughts:** This was a great test of multi-region networking. Configuring MySQL to accept remote connections while maintaining security on Port 3306 is a fundamental DevOps skill.
