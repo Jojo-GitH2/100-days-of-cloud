@@ -887,6 +887,8 @@
 - **Lab:** [Go to Day-088](./Day-088)
 - **Thoughts:** This task is all about the plumbing of cloud data. Moving data off the VM and into durable storage is step one for any stateless application architecture.
 
+---
+
 ### 🗓️ Day 89: Static Website Hosting
 
 **Date:** Apr 04, 2026
@@ -894,3 +896,13 @@
 - **Activity:** Deployed an internal information portal using Azure Storage Static Website hosting. Configured the `$web` container and deployed `index.html` via CLI.
 - **Lab:** [Go to Day-089](./Day-089)
 - **Thoughts:** Serverless hosting at its finest. Moving a static site from a VM to a Storage Account is the ultimate "win" for cost and operational simplicity.
+
+---
+
+### 🗓️ Day 90: Cryptographic Secrets Management
+
+**Date:** Apr 05, 2026
+
+- **Activity:** Used the Azure Portal to provision `nautilus-14838` and a 4096-bit RSA key. Established strict Access Policies and performed file encryption using the RSA-OAEP algorithm.
+- **Lab:** [Go to Day-090](./Day-090)
+- **Thoughts:** Reaching 90 days! Today’s focus on the Portal highlights how easily you can manage complex cryptographic identities. Centralizing keys in a vault is the cornerstone of any "Zero Trust" cloud strategy.
