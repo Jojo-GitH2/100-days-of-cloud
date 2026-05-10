@@ -876,3 +876,13 @@
 - **Activity:** Deployed a Jetware MySQL VM in Central US and integrated it with an existing PHP application in East US. Validated remote DB connectivity.
 - **Lab:** [Go to Day-087](./Day-087)
 - **Thoughts:** This was a great test of multi-region networking. Configuring MySQL to accept remote connections while maintaining security on Port 3306 is a fundamental DevOps skill.
+
+---
+
+### 🗓️ Day 88: VM-to-Storage Integration
+
+**Date:** Apr 03, 2026
+
+- **Activity:** Provisioned `nautilusstor18008` and configured `nautilus-vm` to perform authenticated uploads to a private Blob container.
+- **Lab:** [Go to Day-088](./Day-088)
+- **Thoughts:** This task is all about the plumbing of cloud data. Moving data off the VM and into durable storage is step one for any stateless application architecture.
