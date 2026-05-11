@@ -909,7 +909,7 @@
 
 ---
 
-### 🗓️ Day 91 (Azure Day 41): NoSQL with Table Storage
+### 🗓️ Day 91: NoSQL with Table Storage
 
 **Date:** Apr 06, 2026
 
@@ -926,3 +926,13 @@
 - **Activity:** Safely backed up the `nautilus-blob-18603` container to the `/opt` directory on the management host and deleted the cloud resource.
 - **Lab:** [Go to Day-092](./Day-092)
 - **Thoughts:** Cleanup is just as important as deployment. Automating the backup-and-delete workflow ensures that our "lab junk" doesn't become a "production bill."
+
+---
+
+### 🗓️ Day 93: L7 Load Balancing with Application Gateway
+
+**Date:** Apr 09, 2026
+
+- **Activity:** Deployed `datacenter-agw` and integrated it with `datacenter-vm`. Configured backend pools, listeners, and HTTP settings for advanced traffic management.
+- **Lab:** [Go to Day-093](./Day-093)
+- **Thoughts:** This is a major step up in architectural complexity. Moving from a basic LB to an Application Gateway gives us the granular control needed for enterprise-grade web applications.
