@@ -954,3 +954,13 @@
 - **Activity:** Provisioned `datacenter-namespace` and `datacenter-hub`. Integrated a Linux VM to stream logs via Python and verified ingestion through portal metrics.
 - **Lab:** [Go to Day-094](./Day-094)
 - **Thoughts:** This is the first step toward building a real-time data pipeline. Moving from static log files to event-driven streaming is a massive jump in Nautilus's observability maturity.
+
+---
+
+### 🗓️ Day 95 (Azure Day 45): AKS Private Cluster Orchestration
+
+**Date:** Apr 12, 2026
+
+- **Activity:** Provisioned a private Azure Kubernetes Service (AKS) cluster (`devops-aks`) in Central US. Configured v1.33.0, D2s v3 nodes with autoscaling, and implemented private endpoint security.
+- **Lab:** [Go to Day-095](./Day-095)
+- **Thoughts:** This is the pinnacle of the migration so far. Building a private AKS cluster requires precise networking. We've moved from "Cloud-First" to "Kubernetes-Native."
