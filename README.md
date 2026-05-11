@@ -936,3 +936,21 @@
 - **Activity:** Deployed `datacenter-agw` and integrated it with `datacenter-vm`. Configured backend pools, listeners, and HTTP settings for advanced traffic management.
 - **Lab:** [Go to Day-093](./Day-093)
 - **Thoughts:** This is a major step up in architectural complexity. Moving from a basic LB to an Application Gateway gives us the granular control needed for enterprise-grade web applications.
+
+---
+
+### 🗓️ Day 94 (Azure Day 44): Real-Time Log Streaming
+
+**Date:** Apr 11, 2026
+
+- **Activity:** Provisioned `datacenter-namespace` and `datacenter-hub`. Integrated a Linux VM to stream logs via Python and verified ingestion through portal metrics.
+- **Lab:** [Go to Day-094](./Day-094)
+- **Thoughts:** This is the first step toward building a real-time data pipeline. Moving from static log files to event-driven streaming is a massive jump in Nautilus's observability maturity.
+
+### 🗓️ Day 94: Real-Time Log Streaming
+
+**Date:** Apr 11, 2026
+
+- **Activity:** Provisioned `datacenter-namespace` and `datacenter-hub`. Integrated a Linux VM to stream logs via Python and verified ingestion through portal metrics.
+- **Lab:** [Go to Day-094](./Day-094)
+- **Thoughts:** This is the first step toward building a real-time data pipeline. Moving from static log files to event-driven streaming is a massive jump in Nautilus's observability maturity.
