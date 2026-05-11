@@ -916,3 +916,13 @@
 - **Activity:** Provisioned `xfusiontablest31808` and implemented a 'tasks' table. Populated the table using CLI entity insertion and verified application logic.
 - **Lab:** [Go to Day-091](./Day-091)
 - **Thoughts:** Reaching the final stretch of #100DaysOfCloud! Today’s focus on Table Storage shows how simple it is to build high-performance data layers for small apps without the SQL overhead.
+
+---
+
+### 🗓️ Day 92: Backup & Decommissioning
+
+**Date:** Apr 07, 2026
+
+- **Activity:** Safely backed up the `nautilus-blob-18603` container to the `/opt` directory on the management host and deleted the cloud resource.
+- **Lab:** [Go to Day-092](./Day-092)
+- **Thoughts:** Cleanup is just as important as deployment. Automating the backup-and-delete workflow ensures that our "lab junk" doesn't become a "production bill."
