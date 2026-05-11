@@ -176,7 +176,7 @@
 - **Activity:** Created an IAM group (`iamgroup_james`) to facilitate scalable permission management.
 - **Lab:** [Go to Day-017](./Day-017)
 - **Thoughts:** This is about efficiency. Managing permissions at the Group level is the only way to stay sane in a large organization. It ensures that everyone with the same role has the exact same access.
-  
+
 ---
 
 ### 🗓️ Day 18: Create Read-Only Policy
@@ -906,3 +906,13 @@
 - **Activity:** Used the Azure Portal to provision `nautilus-14838` and a 4096-bit RSA key. Established strict Access Policies and performed file encryption using the RSA-OAEP algorithm.
 - **Lab:** [Go to Day-090](./Day-090)
 - **Thoughts:** Reaching 90 days! Today’s focus on the Portal highlights how easily you can manage complex cryptographic identities. Centralizing keys in a vault is the cornerstone of any "Zero Trust" cloud strategy.
+
+---
+
+### 🗓️ Day 91 (Azure Day 41): NoSQL with Table Storage
+
+**Date:** Apr 06, 2026
+
+- **Activity:** Provisioned `xfusiontablest31808` and implemented a 'tasks' table. Populated the table using CLI entity insertion and verified application logic.
+- **Lab:** [Go to Day-091](./Day-091)
+- **Thoughts:** Reaching the final stretch of #100DaysOfCloud! Today’s focus on Table Storage shows how simple it is to build high-performance data layers for small apps without the SQL overhead.
